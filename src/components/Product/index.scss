@@ -12,18 +12,32 @@
 
 
   &__element {
-    position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    box-shadow: 0 .5rem .5rem #0403031a;
-    width: 21rem;
-    height: 20rem;
+    align-items: center;
     transition: .3s;
     cursor: pointer;
-    border-radius: 50%;
     animation: slide_from_bottom .5s;
+    gap: 2rem;
+    width: 30rem;
+    height: 15rem;
+    background-image: radial-gradient( circle farthest-corner at 3.1% 8.2%,  rgba(248,250,107,1) 0%, rgba(238,148,148,1) 98.2% );
+    border-radius: 1rem;
+    padding-left: 1rem;
+
+    &__image {
+      width: 13rem;
+      height: 13rem;
+      overflow: hidden;
+      border-radius: 1rem;
+
+      & img {
+        object-position: center;
+        object-fit: contain;
+        height: 100%;
+        border-radius: 1rem;
+      }
+    }
 
     &__category {
       display: flex;
@@ -32,7 +46,6 @@
       flex-direction: column;
 
       &__name {
-        position: absolute;
         top: 100%;
         margin: 0;
         color: #5c4a4a;
@@ -41,17 +54,8 @@
     }
 
     &:hover {
-      box-shadow: 0 .5rem .5rem rgb(255, 210, 172);
-
-      .catalog-page__categories__element__category__name {
-        color: #FD794F;
-      }
-    }
-
-    & img {
-      width: 18rem;
-      height: 18rem;
-      border-radius: 50%;
+      transition: .3s all;
+      transform: translateY(-.3rem);
     }
   }
 }
@@ -69,20 +73,25 @@
     &__element {
       position: relative;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding-top: 2rem;
       min-width: 30%;
       max-width: 12rem;
       min-height: 25%;
       height: 11rem;
 
-      & img {
-        border: 1px solid #FD794F;
-        width: 100%;
-        max-width: 12rem;
-        height: 100%;
+      &__image {
+        width: 8rem;
+        height: 8rem;
+        overflow: hidden;
+        border-radius: 1rem;
+
+        & img {
+          object-position: center;
+          object-fit: contain;
+          height: 100%;
+          border-radius: 1rem;
+        }
       }
     }
   }
@@ -92,9 +101,27 @@
   .categories {
 
     &__element {
+      padding-top: 1rem;
+      flex-direction: column;
       height: 9rem;
       width: 9rem;
 
+      &__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6rem;
+        height: 6rem;
+        overflow: hidden;
+        border-radius: 1rem;
+
+        & img {
+          object-position: center;
+          object-fit: contain;
+          height: 100%;
+          border-radius: 1rem;
+        }
+      }
     }
   }
 }

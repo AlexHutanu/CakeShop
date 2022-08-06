@@ -19,7 +19,10 @@ export default ({ type, image, info }: CookiesProps) => {
                   <div className="category__container__primary-info__image__wrapper">
                      <div
                         className={`category__container__primary-info__image__wrapper__card ${visibleInfo ? 'category__container__primary-info__image__wrapper__card__visible-info' : ''}`}>
-                        <img src={image} alt="photo"/>
+                        <div
+                           className="category__container__primary-info__image__wrapper__card__image">
+                           <img src={image} alt="photo"/>
+                        </div>
                         <div
                            className="category__container__primary-info__image__wrapper__card__descriptions">
                            <h1>{type}</h1>
