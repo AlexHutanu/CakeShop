@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
 import CloseIcon from '../../../icons/CloseIcon'
-import CakeProps from './interface'
+import ProductProps from '../interface'
 
 
-export default ({ type, image, info }: CakeProps) => {
+export default ({ type, image, info, price }: ProductProps) => {
 
    const [ visibleProducts, setVisibleProducts ] = useState<boolean>(false)
    const [ visibleInfo, setVisibleInfo ] = useState<boolean>(false)
@@ -13,8 +13,7 @@ export default ({ type, image, info }: CakeProps) => {
       <div className="category">
          <div
             className={`category__container ${visibleProducts ? 'category__container__visible' : ''}`}>
-            <div className="category__container__primary-info"
-                 onClick={() => setVisibleInfo(prev => !prev)}>
+            <div className="category__container__primary-info">
                <div className="category__container__primary-info__image">
                   <div className="category__container__primary-info__image__wrapper">
                      <div
@@ -25,14 +24,21 @@ export default ({ type, image, info }: CakeProps) => {
                         </div>
                         <div
                            className="category__container__primary-info__image__wrapper__card__descriptions">
-                           <h1>{type}</h1>
+                           <h1>Ingrediente</h1>
                            <div> {info} </div>
                         </div>
                      </div>
                   </div>
                </div>
-               <p className="category__container__primary-info__type"
-                  onClick={() => setVisibleProducts(prev => !prev)}>{type}</p>
+               <div className="category__container__primary-info__visible-info">
+                  <p className="category__container__primary-info__visible-info__type"
+                     onClick={() => setVisibleProducts(prev => !prev)}>{type}</p>
+                  <p className="category__container__primary-info__visible-info__price">{price}</p>
+                  <button className="category__container__primary-info__visible-info__button"
+                          onClick={() => setVisibleInfo(prev => !prev)}>
+                     {visibleInfo ? 'Mai putin' : 'Afla mai multe'}
+                  </button>
+               </div>
             </div>
          </div>
       </div>

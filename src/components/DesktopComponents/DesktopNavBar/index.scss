@@ -27,7 +27,7 @@
     cursor: pointer;
     font-family: Merienda, serif;
     font-style: italic;
-    color: #FD794F;
+    color: $orange;
 
 
     & p {
@@ -57,7 +57,7 @@
       text-decoration: none;
 
       &:hover, &--active {
-        color: #FD794F;
+        color: $orange;
         font-size: 1.45rem;
       }
     }

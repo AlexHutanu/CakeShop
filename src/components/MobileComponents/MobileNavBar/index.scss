@@ -27,7 +27,7 @@
       cursor: pointer;
       font-family: Merienda, serif;
       font-style: italic;
-      color: #FD794F;
+      color: $orange;
 
       & p {
         margin: 0 0 0 3rem;
@@ -79,7 +79,7 @@
 
           &--active {
             font-size: 2rem;
-            color: #FD794F;
+            color: $orange;
           }
         }
       }

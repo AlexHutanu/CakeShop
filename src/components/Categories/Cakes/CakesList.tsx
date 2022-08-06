@@ -12,10 +12,11 @@ export default () =>
                key={id}
                type={type}
                image={image}
+               price={`${price}`}
                info={<CakesInfo
                   composition={composition}
                   recommendation={recommendation}
-                  price={`${price}`}/>
+                  />
                }
             />
          })}

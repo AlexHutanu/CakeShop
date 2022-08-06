@@ -45,19 +45,19 @@ export default () => {
             {visibleCookies ?
                cookiesArray.map((cookie, id) => {
                   const { type, image, info: { composition, recommendation, price } } = cookie
-                  return <Cookies key={id} type={type} image={image}
+                  return <Cookies key={id} type={type} image={image} price={`${price}`}
                                   info={<CookiesInfo composition={composition}
                                                      recommendation={recommendation}
-                                                     price={`${price}`}/>}/>
+                                  />}/>
                })
                : null}
             {visibleCookiesFast ?
                fastingCookiesArray.map((cookie, id) => {
                   const { type, image, info: { composition, recommendation, price } } = cookie
-                  return <Cookies key={id} type={type} image={image}
+                  return <Cookies key={id} type={type} image={image} price={`${price}`}
                                   info={<CookiesInfo composition={composition}
                                                      recommendation={recommendation}
-                                                     price={`${price}`}/>}/>
+                                  />}/>
                })
                : null}
          </div>

@@ -1,12 +1,10 @@
 import CheckIcon from '../../../icons/CheckIcon'
-import TagIcon from '../../../icons/TagIcon'
-import CookiesProps from './interface'
+import ProductInfoProps from '../interface'
 
 
-export default ({ composition, recommendation, price }: CookiesProps) => {
+export default ({ composition, recommendation }: ProductInfoProps) => {
    return <div className="product-info">
       <div className="product-info__details">
-         <div className="product-info__details__price"><TagIcon/>{price}</div>
          <div className="product-info__details__composition__wrapper">
             {composition.map((ingredient, id) => {
                return <div key={id} className="product-info__details__composition">

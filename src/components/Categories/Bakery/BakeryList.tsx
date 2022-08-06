@@ -45,19 +45,19 @@ export default () => {
             {visibleBakery ?
                bakeryArray.map((bakery, id) => {
                   const { type, image, info: { composition, recommendation, price } } = bakery
-                  return <Bakery key={id} type={type} image={image}
-                                  info={<BakeryInfo composition={composition}
-                                                     recommendation={recommendation}
-                                                     price={`${price}`}/>}/>
+                  return <Bakery key={id} type={type} image={image} price={`${price}`}
+                                 info={<BakeryInfo composition={composition}
+                                                   recommendation={recommendation}
+                                 />}/>
                })
                : null}
             {visibleBakeryFast ?
                fastingBakeryArray.map((cookie, id) => {
                   const { type, image, info: { composition, recommendation, price } } = cookie
-                  return <Bakery key={id} type={type} image={image}
-                                  info={<BakeryInfo composition={composition}
-                                                     recommendation={recommendation}
-                                                     price={`${price}`}/>}/>
+                  return <Bakery key={id} type={type} image={image} price={`${price}`}
+                                 info={<BakeryInfo composition={composition}
+                                                   recommendation={recommendation}
+                                 />}/>
                })
                : null}
          </div>
