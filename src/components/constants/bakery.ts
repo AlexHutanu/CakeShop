@@ -2,7 +2,7 @@ export const bakeryArray = [
    {
       type: 'Cozonac',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './cozonac.jpg',
       info: {
          price: '55 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Drojdie', 'Nuca', 'Rahat/Branza', 'Zahar' ],

@@ -12,7 +12,7 @@
   &__description {
     font-size: 2rem;
     width: 50rem;
-    color: #424141;
+    color: $white;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
   }
@@ -45,6 +45,7 @@
     &__description {
       font-size: 1.3rem;
       width: 100%;
+      color: $white;
     }
 
     &__image {

@@ -10,7 +10,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort Dobos',
-      image: 'cake2.png',
+      image: 'dobos.jpg',
       info: {
          composition: [ 'Ou', 'Faina', 'Lapte', 'Ciocolata', 'Unt' ],
          recommendation: '*Decor limitat',
@@ -19,7 +19,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort Egiptean',
-      image: 'cake2.png',
+      image: 'tortEgiptean.jpg',
       info: {
          composition: ['Faina', 'Nuca', 'Krantz', 'Nuca caramelizata', 'Vanilie', 'Lapte', 'Unt', 'Smochine' ],
          recommendation: '*Decor limitat',
@@ -76,7 +76,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort Entremet',
-      image: 'cake2.png',
+      image: 'tortEntremet.jpg',
       info: {
          composition: [ 'Biscuite cu migdale', 'Ciocolata', 'Crema de whisky', 'Ou', 'Mascarpone', 'Zahar' ],
          recommendation: '*Recomandat pentru evenimente',

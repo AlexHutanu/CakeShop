@@ -4,7 +4,7 @@
 .landing-page {
   display: flex;
   justify-content: center;
-  background-color: #f3f5f7;
+  background-color: $black;
   width: 100vw;
   height: 100%;
   gap: 5rem;
@@ -22,6 +22,7 @@
     &__description {
       font-size: 6rem;
       margin: 4rem 0 2rem 3rem;
+      color: $white;
     }
 
     &__cake-images {
@@ -45,6 +46,7 @@
     & img {
       border-radius: 10rem;
       border: 2px solid $orange;
+      object-fit: cover;
       width: 26rem;
       height: 45rem;
     }
@@ -62,6 +64,7 @@
         font-size: 2.5rem;
         display: flex;
         align-items: center;
+        color: $white;
 
         & svg {
           color: $orange;

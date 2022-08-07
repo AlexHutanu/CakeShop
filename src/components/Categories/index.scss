@@ -21,11 +21,8 @@
     &__primary-info {
       display: flex;
       align-items: center;
-      background-color: transparent;
       z-index: 2;
       border-radius: 1rem;
-      //background: rgb(253,121,79);
-      //background: linear-gradient(90deg, rgba(253,121,79,1) 39%, rgba(0,212,255,1) 100%);
       background: rgb(255,151,118);
       background: linear-gradient(90deg, rgba(255,151,118,0.9051995798319328) 32%, rgba(70,224,255,0.835171568627451) 100%);
 
@@ -42,14 +39,14 @@
             align-items: center;
             border-radius: 1rem;
             height: 23rem;
-            width: 18rem;
+            width: 20rem;
             cursor: pointer;
             transition: all .5s cubic-bezier(.8, .5, .2, 1.4);
             overflow: hidden;
             position: relative;
 
             &__image {
-              width: 13rem;
+              width: 14rem;
               height: 80%;
               overflow: hidden;
               display: flex;
@@ -73,7 +70,6 @@
 
               & img {
                 transition: all .5s;
-                transform: scale(1.6) rotate(10deg);
                 filter: blur(3px);
               }
             }

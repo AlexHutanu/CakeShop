@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:wght@300&display=swap");
 .catalog-page {
-  background-color: #f3f5f7;
+  background-color: #181818;
   display: flex;
   flex-direction: column;
   gap: 15rem;
@@ -46,10 +46,10 @@
   }
 }
 .about-us {
-  background-color: #f3f5f7;
+  background-color: #181818;
   padding-top: 1rem;
   gap: 2rem;
-  margin-top: 5rem;
+  margin: 5rem 0 1rem 0;
   position: absolute;
   flex-direction: column;
   inset: 0;
@@ -58,6 +58,8 @@
   justify-content: center;
 }
 .about-us__information {
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 100%;
 }
@@ -66,7 +68,7 @@
   height: fit-content;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 5rem;
 }
 .about-us__information__sections__section {
   box-shadow: 0 0.5rem 0.5rem rgba(4, 3, 3, 0.1019607843);
@@ -130,15 +132,6 @@
   font-size: 1.5rem;
   margin-right: 1rem;
 }
-.about-us__group-photo {
-  width: 35rem;
-  height: 20rem;
-}
-.about-us__group-photo img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10rem 10rem 1rem 1rem;
-}
 
 .info {
   display: none;
@@ -155,16 +148,6 @@
     position: relative;
     height: 100%;
     width: 100%;
-  }
-  .about-us__group-photo {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: 30%;
-  }
-  .about-us__group-photo img {
-    width: 95%;
-    height: 55%;
   }
   .about-us__information {
     width: 95%;
@@ -230,16 +213,6 @@
     position: relative;
     height: 100%;
     width: 100%;
-  }
-  .about-us__group-photo {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: 30%;
-  }
-  .about-us__group-photo img {
-    width: 95%;
-    height: 55%;
   }
   .about-us__information {
     width: 95%;
@@ -328,7 +301,7 @@
   border-bottom: 1px;
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  color: #424141;
+  color: #f3f5f7;
   height: 100%;
   width: 100%;
 }
@@ -340,7 +313,7 @@
 .ice-cream__info__prices__element {
   font-size: 1.5rem;
   margin: 0;
-  color: #424141;
+  color: #f3f5f7;
 }
 .ice-cream img {
   width: 25rem;
@@ -449,7 +422,7 @@
 .candy-bar__description {
   font-size: 2rem;
   width: 50rem;
-  color: #424141;
+  color: #f3f5f7;
   font-family: "Open Sans", sans-serif;
   margin: 0;
 }
@@ -479,6 +452,7 @@
   .candy-bar__description {
     font-size: 1.3rem;
     width: 100%;
+    color: #f3f5f7;
   }
   .candy-bar__image {
     display: flex;
@@ -503,6 +477,7 @@
   .candy-bar__description {
     font-size: 1.3rem;
     width: 100%;
+    color: #f3f5f7;
   }
   .candy-bar__image {
     display: flex;
@@ -636,7 +611,6 @@
 .category__container__primary-info {
   display: flex;
   align-items: center;
-  background-color: transparent;
   z-index: 2;
   border-radius: 1rem;
   background: rgb(255, 151, 118);
@@ -653,14 +627,14 @@
   align-items: center;
   border-radius: 1rem;
   height: 23rem;
-  width: 18rem;
+  width: 20rem;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
   overflow: hidden;
   position: relative;
 }
 .category__container__primary-info__image__wrapper__card__image {
-  width: 13rem;
+  width: 14rem;
   height: 80%;
   overflow: hidden;
   display: flex;
@@ -682,7 +656,6 @@
 }
 .category__container__primary-info__image__wrapper__card__visible-info img {
   transition: all 0.5s;
-  transform: scale(1.6) rotate(10deg);
   filter: blur(3px);
 }
 .category__container__primary-info__image__wrapper__card__visible-info .category__container__primary-info__image__wrapper__card__descriptions {
@@ -1238,7 +1211,7 @@
 .landing-page {
   display: flex;
   justify-content: center;
-  background-color: #f3f5f7;
+  background-color: #181818;
   width: 100vw;
   height: 100%;
   gap: 5rem;
@@ -1255,6 +1228,7 @@
 .landing-page__left-section__description {
   font-size: 6rem;
   margin: 4rem 0 2rem 3rem;
+  color: #f3f5f7;
 }
 .landing-page__left-section__cake-images {
   display: flex;
@@ -1274,6 +1248,7 @@
 .landing-page__middle-section img {
   border-radius: 10rem;
   border: 2px solid #ff835b;
+  object-fit: cover;
   width: 26rem;
   height: 45rem;
 }
@@ -1288,6 +1263,7 @@
   font-size: 2.5rem;
   display: flex;
   align-items: center;
+  color: #f3f5f7;
 }
 .landing-page__right-section__features__feature svg {
   color: #ff835b;
@@ -1759,7 +1735,7 @@ mark.orange {
 }
 .categories__element {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   transition: 0.3s;
   cursor: pointer;
@@ -1779,8 +1755,9 @@ mark.orange {
 }
 .categories__element__image img {
   object-position: center;
-  object-fit: contain;
+  object-fit: cover;
   height: 100%;
+  width: 100%;
   border-radius: 1rem;
 }
 .categories__element__category {
@@ -1792,8 +1769,8 @@ mark.orange {
 .categories__element__category__name {
   top: 100%;
   margin: 0;
-  color: #5c4a4a;
-  font-size: 1.8rem;
+  color: #f3f5f7;
+  font-size: 2rem;
 }
 .categories__element:hover {
   transition: 0.3s all;
@@ -1872,12 +1849,15 @@ mark.orange {
     width: 9rem;
     padding-left: 0;
   }
+  .categories__element__category__name {
+    font-size: 1.8rem;
+  }
   .categories__element__image {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
     overflow: hidden;
     border-radius: 1rem;
   }
@@ -1889,7 +1869,7 @@ mark.orange {
   }
 }
 .nav-bar__mobile {
-  background-color: #F8FAFB;
+  background-color: #181818;
   opacity: 0.9;
   display: none;
 }
@@ -2043,11 +2023,11 @@ mark.orange {
 .nav-bar__desktop {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #181818;
   gap: 25%;
   position: fixed;
   width: 100%;
-  background-color: #F8FAFB;
+  background-color: #181818;
   top: 0;
   z-index: 1000;
 }
@@ -2093,7 +2073,7 @@ mark.orange {
   font-weight: 500;
   font-style: italic;
   font-size: 1.4rem;
-  color: #494949;
+  color: #f3f5f7;
   cursor: pointer;
   transition: 0.3s;
   text-decoration: none;
@@ -2310,6 +2290,7 @@ span + span {
 body {
   margin: 0;
   overflow-x: hidden;
+  background-color: #181818;
 }
 
 hr {

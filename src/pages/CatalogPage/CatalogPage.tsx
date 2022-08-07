@@ -57,27 +57,27 @@ export default () => {
   const products = [
       {
        name: Products.CAKES,
-       image: 'macarons.jpg',
+       image: 'weedingCake.avif',
        show: () => showProducts(Products.CAKES)
      },
      {
       name: Products.COOKIES,
-      image: 'cake2.png',
+      image: 'macarons.avif',
       show: () => showProducts(Products.COOKIES)
     },
      {
       name: Products.BAKERY,
-      image: 'index.jpg',
+      image: 'placinte.jpg',
       show: () => showProducts(Products.BAKERY)
     },
      {
       name: Products.CANDY_BAR,
-      image: 'Cheesecake.jpg',
+      image: 'candyBar.jpg',
       show: () => showProducts(Products.CANDY_BAR)
     },
     {
       name: Products.ICE_CREAM,
-      image: 'iceCream1.jpg',
+      image: 'iceCream.jpg',
       show: () => showProducts(Products.ICE_CREAM)
     }
 ]

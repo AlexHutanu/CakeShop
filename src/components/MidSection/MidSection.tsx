@@ -18,7 +18,7 @@ export default () => {
          </div>
       </div>
       <div className="landing-page__middle-section">
-         <img src="Cheesecake.jpg" alt="cheesecake"/>
+         <img src="cheesecake.png" alt="cheesecake"/>
       </div>
       <div className="landing-page__right-section">
          <div className="landing-page__right-section__features">

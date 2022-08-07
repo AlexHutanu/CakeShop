@@ -2,7 +2,7 @@ export const cookiesArray = [
    {
       type: 'Alba ca zapada',
       price: '48 ron/kg',
-      image: './index.jpg',
+      image: './alba ca zapada.jpg',
       info: {
          price: '48 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Zahar', 'Lamaie', 'Ciocolata alba' ],
@@ -12,7 +12,7 @@ export const cookiesArray = [
    {
       type: 'Delicia',
       price: 50,
-      image: './index.jpg',
+      image: './delicia.jpg',
       info: {
          price: '48 ron/kg',
          composition: [ 'Ou', 'Lapte', 'Zahar', 'Unt', 'Faina', 'Vanilie', 'Cacao', 'Cocos', 'Ciocolata' +
@@ -33,7 +33,7 @@ export const cookiesArray = [
    {
       type: 'Bomboane tavalite',
       price: 50,
-      image: './index.jpg',
+      image: './bomboane tavalite.jpg',
       info: {
          price: '53 ron/kg',
          composition: [ 'Blat copt', 'Nuca', 'Unt', 'Ciocolata', 'Visine din alcool', 'Rom' ],
@@ -63,7 +63,7 @@ export const cookiesArray = [
    {
       type: 'Rulada Dobos',
       price: 50,
-      image: './index.jpg',
+      image: './dobos.jpg',
       info: {
          price: '75 ron/kg',
          composition: [ 'Ou', 'Lapte', 'Faina', 'Unt', 'Ciocolata' ],
@@ -73,7 +73,7 @@ export const cookiesArray = [
    {
       type: 'Minitarte',
       price: 50,
-      image: './index.jpg',
+      image: './minitarte.jpg',
       info: {
          price: '68 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Vanilie/Caramel', 'Ciocolata', 'Fructe' ],
@@ -124,7 +124,7 @@ export const cookiesArray = [
    {
       type: 'Minieclere',
       price: 50,
-      image: './index.jpg',
+      image: './minieclere.jpg',
       info: {
          price: '55 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Vanilie' ],
@@ -224,7 +224,7 @@ export const cookiesArray = [
    {
       type: 'Amandine',
       price: 50,
-      image: './index.jpg',
+      image: './amandine.jpg',
       info: {
          price: '6,3 ron/buc',
          composition: ['Ou', 'Zahar', 'Faina', 'Unt', 'Ciocolata', 'Rom', 'Fondant'],
@@ -244,7 +244,7 @@ export const cookiesArray = [
    {
       type: 'Ecler',
       price: 50,
-      image: './index.jpg',
+      image: './ecler.jpg',
       info: {
          price: '5,5 ron/buc',
          composition: ['Ou', 'Lapte', 'Faina', 'Unt', 'Vanilie/Ciocolata'],
@@ -254,7 +254,7 @@ export const cookiesArray = [
    {
       type: 'Cheesecake',
       price: 50,
-      image: './index.jpg',
+      image: './cheesecakePhoto.jpg',
       info: {
          price: '10 ron/buc',
          composition: ['Crema de branza', 'Ciocolata alba', 'Unt de cacao', 'Gelatina/Pectina', 'Piure de fructe'],
@@ -264,7 +264,7 @@ export const cookiesArray = [
    {
       type: 'Cuburi Bailey',
       price: 50,
-      image: './index.jpg',
+      image: './cuburi B.jpg',
       info: {
          price: '90 ron/kg',
          composition: ['Ou', 'Smantana', 'Ciocolata', 'Crema de whisky'],
@@ -274,7 +274,7 @@ export const cookiesArray = [
    {
       type: 'Tiramisu',
       price: 50,
-      image: './index.jpg',
+      image: './prajitura.jpg',
       info: {
          price: '7 ron/buc',
          composition: ['Ou', 'Faina', 'Lapte', 'Zahar', 'Cafea', 'Mascarpone', 'Smantana', 'Amaretto','Cacao'],
@@ -304,7 +304,7 @@ export const cookiesArray = [
    {
       type: 'Bombite',
       price: 50,
-      image: './index.jpg',
+      image: './bombite.jpg',
       info: {
          price: '5 ron/buc',
          composition: ['Blat copt', 'Biscuite', 'Stafide inmuiate in rom', 'Nuca coapta', 'Ciocolata', 'Unt'],
@@ -324,7 +324,7 @@ export const cookiesArray = [
    {
       type: 'Duet',
       price: 50,
-      image: './index.jpg',
+      image: './prajitura.jpg',
       info: {
          price: '12 ron/buc',
          composition: ['Lapte', 'Ou', 'Faina', 'Cacao', 'Zahar', 'Cicolata', 'Vanilie', 'Alune'],
