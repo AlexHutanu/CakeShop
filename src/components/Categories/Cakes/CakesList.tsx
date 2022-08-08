@@ -1,3 +1,4 @@
+import BottomArrowIcon from '../../../icons/BottomArrowIcon'
 import CakesInfo from '../../ProductsInfo/CakesInfo'
 import Cake from './Cakes'
 import { cakesArray } from '../../constants/cakes'
@@ -18,6 +19,9 @@ export default () =>
              lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aspernatur atque
             corporis deleniti earum eius explicabo ipsum praesentium sequi?
          </p>
+         <div className='category-list__information__arrow'>
+            <BottomArrowIcon />
+         </div>
       </div>
       <div className="category-list__products">
          {cakesArray.map((cake, id) => {
