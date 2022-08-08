@@ -122,10 +122,17 @@
 
 @include respond($phone) {
   .ice-cream {
+    display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1.5rem;
 
     &__image-slides {
+      display: flex;
+      justify-content: center;
       height: 16rem;
+      width: 100%;
 
     }
 
@@ -134,6 +141,28 @@
 
       &__title {
         font-size: 1.2rem;
+      }
+    }
+
+    &__flavours {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+
+      & ul {
+        height: 1rem;
+        width: 30%;
+
+        & li {
+          font-size: 1.2rem;
+
+          & svg {
+            width: 1.5rem;
+            height: 1.5rem;
+          }
+        }
       }
     }
   }

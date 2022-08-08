@@ -406,16 +406,41 @@
 }
 @media (max-width: 37rem) {
   .ice-cream {
+    display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1.5rem;
   }
   .ice-cream__image-slides {
+    display: flex;
+    justify-content: center;
     height: 16rem;
+    width: 100%;
   }
   .ice-cream__info {
     width: 100%;
   }
   .ice-cream__info__title {
     font-size: 1.2rem;
+  }
+  .ice-cream__flavours {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ice-cream__flavours ul {
+    height: 1rem;
+    width: 30%;
+  }
+  .ice-cream__flavours ul li {
+    font-size: 1.2rem;
+  }
+  .ice-cream__flavours ul li svg {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 @media (max-width: 20rem) {
