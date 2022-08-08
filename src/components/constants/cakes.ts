@@ -123,7 +123,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort Mozaic',
-      image: 'cake2.png',
+      image: 'mozaic.jpg',
       info: {
          composition: [ 'Ou', 'Faina', 'Lapte', 'Cacao', 'Unt', 'Lamaie', 'Ciocolata' ],
          recommendation: '*Recomandat pentru evenimente',

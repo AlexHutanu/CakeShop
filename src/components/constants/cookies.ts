@@ -43,7 +43,7 @@ export const cookiesArray = [
    {
       type: 'Bomboane Raffaello',
       price: 50,
-      image: './index.jpg',
+      image: './raffaello.jpg',
       info: {
          price: '50 ron/kg',
          composition: [ 'Lapte praf', 'Unt', 'Nuca de cocos', 'Razatura de cocos', 'Migdale coapte' ],
@@ -94,7 +94,7 @@ export const cookiesArray = [
    {
       type: 'Ciocolata de casa',
       price: 50,
-      image: './index.jpg',
+      image: './ciocolataDeCasa.jpg',
       info: {
          price: '75 ron/kg',
          composition: [ 'Lapte praf', 'Unt', 'Cacao/Fistic/Trandafir' ],
@@ -154,7 +154,7 @@ export const cookiesArray = [
    {
       type: 'Miniamandine',
       price: 50,
-      image: './index.jpg',
+      image: './miniamandine.jpg',
       info: {
          price: '48 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Ciocolata', 'Rom' ],
@@ -234,7 +234,7 @@ export const cookiesArray = [
    {
       type: 'Savarine',
       price: 50,
-      image: './index.jpg',
+      image: './savarina.jpg',
       info: {
          price: '6,2 ron/buc',
          composition: ['Ou', 'Lapte', 'Faina', 'Drojdie', 'Smantana', 'Jeleu de fucte', 'Rom'],
@@ -264,7 +264,7 @@ export const cookiesArray = [
    {
       type: 'Cuburi Bailey',
       price: 50,
-      image: './cuburi B.jpg',
+      image: './cuburiBailey.jpg',
       info: {
          price: '90 ron/kg',
          composition: ['Ou', 'Smantana', 'Ciocolata', 'Crema de whisky'],
@@ -284,7 +284,7 @@ export const cookiesArray = [
    {
       type: 'Fantezie',
       price: 50,
-      image: './index.jpg',
+      image: './fantezie.jpg',
       info: {
          price: '12 ron/buc',
          composition: ['Ou', 'Lapte', 'Unt', 'Faina de migdale', 'Cacao', 'Vanilie', 'Fructe'],
