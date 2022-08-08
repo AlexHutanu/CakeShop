@@ -7,7 +7,7 @@
   min-height: 20rem;
   height: fit-content;
   padding-top: 6rem;
-  width: 90%;
+  width: 100vw;
   margin: auto;
 
   &__cakes {
@@ -49,7 +49,7 @@
   &__ice-cream {
     display: none;
     height: fit-content;
-    width: 60rem;
+    width: 100%;
     margin: 2rem 2rem;
     gap: 1rem;
     justify-content: flex-start;

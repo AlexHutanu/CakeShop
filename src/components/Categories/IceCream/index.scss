@@ -11,7 +11,7 @@
   &__image-slides {
     border: 2px solid #FD794F;
     border-radius: 2rem;
-    width: 60%;
+    width: 25%;
     height: 100%;
     margin: 0 3rem 1rem 5rem;
   }
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 100%;
+    width: 30%;
 
     &__title {
       display: flex;
@@ -52,6 +52,27 @@
     width: 25rem;
     height: 30rem;
     border-radius: 4rem;
+  }
+
+  &__flavours {
+    display: flex;
+    flex-direction: column;
+
+    & ul {
+
+      & li {
+        display: flex;
+        align-items: center;
+        font-size: 1.7rem;
+        color: $white;
+        list-style: none;
+
+        & svg {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
   }
 }
 

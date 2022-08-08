@@ -29,8 +29,5 @@ export default ( { slides }: SliderProps) => {
       </div>
       <div className="image-slider" style={{ backgroundImage: `url(${slides[currentIndex].url}` }}>
       </div>
-      <p className="image-slider__title">
-         {slides[currentIndex].title}
-      </p>
    </div>
 }
