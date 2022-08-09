@@ -53,9 +53,6 @@ export default ({ type, image, info, price }: ProductProps) => {
             <div className="mobile-info__body__info">
                {info}
             </div>
-            <div className="mobile-info__body__image">
-               <img src={image} alt="cake image"/>
-            </div>
          </div>
          <div className="mobile-info__close-button" onClick={() => setVisibleInfo(prev => !prev)}>
             <CloseIcon/>

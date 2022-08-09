@@ -2,7 +2,7 @@ export const fastingCookiesArray = [
    {
       type: 'Morcoveata',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './morcoveata.jpg',
       info: {
          price: '50 ron/kg',
          composition: [ 'Morcov', 'Zahar', 'Lamaie', 'Faina', 'Nuca de cocos' ],
@@ -12,7 +12,7 @@ export const fastingCookiesArray = [
    {
       type: 'Prajitura cu mar',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './prajitura  cu mar POST.jpg',
       info: {
          price: '50 ron/kg',
          composition: [ 'Faina', 'Mar', 'Scortisoara', 'Suc de rosii', 'Zahar' ],
@@ -20,9 +20,9 @@ export const fastingCookiesArray = [
       }
    },
    {
-      type: 'Prajitura cu grij',
+      type: 'Prajitura cu gris',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './prajitura cu gris POST.jpg',
       info: {
          price: '50 ron/kg',
          composition: [ 'Faina', 'Zahar', 'Uler', 'Suc de rosii', 'Gris', 'Lapte soia', 'Lamaie', 'Nuca', 'Gem' ],
@@ -32,7 +32,7 @@ export const fastingCookiesArray = [
    {
       type: 'Bogdy',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './bogdy.jpg',
       info: {
          price: '50 ron/kg',
          composition: [ 'Faina', 'Zahar', 'Cacao', 'Gem', 'Unt de arahide' ],
@@ -42,7 +42,7 @@ export const fastingCookiesArray = [
    {
       type: 'Bomboane tavalite',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './bomboanetavalite.jpg',
       info: {
          price: '50 ron/kg',
          composition: [ 'Blat copt', 'Biscuite', 'Cacao', 'Margarina', 'Ciocolata', 'Rom', 'Visina' +

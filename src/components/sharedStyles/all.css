@@ -74,11 +74,12 @@
   box-shadow: 0 0.5rem 0.5rem rgba(4, 3, 3, 0.1019607843);
   display: flex;
   border-radius: 1rem;
-  background-color: white;
+  background-color: #f3f5f7;
   transition: 0.5s;
   width: 30rem;
   height: 100%;
   min-height: 20rem;
+  animation: slide_from_bottom 1s;
 }
 .about-us__information__sections__section__arrow {
   display: flex;
@@ -97,12 +98,20 @@
   display: flex;
   margin: 0.5rem;
   font-size: 2rem;
-  color: #494949;
+  color: #181818;
+}
+.about-us__information__sections__section__container__details {
+  height: 100%;
+}
+.about-us__information__sections__section__container__details p {
+  color: #181818;
 }
 .about-us__information__sections__section__container__details__contact-list {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: center;
+  gap: 3rem;
+  height: 100%;
 }
 .about-us__information__sections__section__container__details__contact-list__element {
   display: flex;
@@ -111,6 +120,10 @@
 .about-us__information__sections__section__container__details__contact-list__element__name {
   font-size: 1.5rem;
   margin: 0;
+}
+.about-us__information__sections__section__container__details__contact-list__element__name a {
+  text-decoration: none;
+  color: #181818;
 }
 .about-us__information__sections__section__container__details__contact-list__element svg {
   width: 1.5rem;
@@ -157,6 +170,7 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
+    gap: 2rem;
   }
   .about-us__information__sections__section {
     min-height: 10rem;
@@ -222,6 +236,7 @@
     flex-direction: column;
     width: 100%;
     height: fit-content;
+    gap: 2rem;
   }
   .about-us__information__sections__section {
     min-height: 10rem;
@@ -323,10 +338,19 @@
 .ice-cream__flavours {
   display: flex;
   flex-direction: column;
+  height: 60%;
+  width: 30%;
+  flex-wrap: wrap;
+}
+.ice-cream__flavours ul {
+  width: fit-content;
+  margin: 0 0 1rem 0;
+  padding: 0;
 }
 .ice-cream__flavours ul li {
   display: flex;
   align-items: center;
+  width: fit-content;
   font-size: 1.7rem;
   color: #f3f5f7;
   list-style: none;
@@ -427,13 +451,20 @@
   .ice-cream__flavours {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
   .ice-cream__flavours ul {
-    height: 1rem;
-    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    gap: 1rem;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
   }
   .ice-cream__flavours ul li {
     font-size: 1.2rem;
@@ -750,6 +781,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.7rem;
+  z-index: 1;
 }
 .category__container__primary-info__visible-info__button {
   color: white;
@@ -920,7 +952,7 @@
     height: 2rem;
     font-size: 1.4rem;
     margin: 0;
-    z-index: 5;
+    z-index: 1;
   }
   .category__container__primary-info__visible-info__button {
     height: 2rem;
@@ -1096,7 +1128,7 @@
   align-items: flex-start;
   height: 100%;
   width: 100%;
-  gap: 0;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 .product-info__details__composition p {
@@ -1110,8 +1142,20 @@
   width: 100%;
 }
 .product-info svg {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.cake-description__cake-tops ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+.cake-description__cake-tops ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  color: #f3f5f7;
 }
 
 @media (max-width: 75rem) {
@@ -1131,11 +1175,14 @@
   }
   .product-info__details__composition div {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: fit-content;
   }
   .product-info__details__composition div p {
     width: 100%;
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .product-info__details__composition div__wrapper {
     height: 8rem;
@@ -1147,6 +1194,10 @@
   }
   .product-info__details__recommendation {
     margin: 0;
+  }
+  .product-info__details svg {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 @media (max-width: 75rem) {
@@ -1166,11 +1217,14 @@
   }
   .product-info__details__composition div {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: fit-content;
   }
   .product-info__details__composition div p {
     width: 100%;
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .product-info__details__composition div__wrapper {
     height: 8rem;
@@ -1182,6 +1236,17 @@
   }
   .product-info__details__recommendation {
     margin: 0;
+  }
+  .product-info__details svg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+@media (max-width: 37rem) {
+  .cake-description__cake-tops ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    color: #f3f5f7;
   }
 }
 .image-slider {

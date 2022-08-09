@@ -1,7 +1,7 @@
 export const cakesArray = [
    {
       type: 'Tort Cifra',
-      image: './cake2.png',
+      image: './tortcifra.png',
       info: {
          composition: [ 'Blat de biscuite cu migdale', 'Crema vanilie' ],
          recommendation: '*Recomandat pentru evenimente',
@@ -38,7 +38,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort Limoncello',
-      image: 'cake2.png',
+      image: 'limoncello.jpg',
       info: {
          composition: [ 'Ou', 'Faina migdale', 'Fistic', 'Miere de albine', 'Unt', 'Lime' ],
          recommendation: '*Decor limitat',
@@ -47,7 +47,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort Medovic',
-      image: 'cake2.png',
+      image: 'medovic.jpg',
       info: {
          composition: [ 'Ou', 'Faina', 'Lapte', 'Miere', 'Smantana', 'Visine', 'Portocale' ],
          recommendation: '*Decor limitat',
@@ -56,7 +56,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort Carrot',
-      image: 'cake2.png',
+      image: 'carrotcake.jpg',
       info: {
          composition: [ 'Ou', 'Faina', 'Lapte', 'Morcov', 'Ghimbir', 'Nucsoara', 'Crema de' +
          ' branza', 'Unt' ],
@@ -85,7 +85,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort/Rulada Pavlova',
-      image: 'cake2.png',
+      image: 'pavlova.png',
       info: {
          composition: ['Albus ou', 'Zahar', 'Amidon', 'Mascarpone', 'Crema de branza', 'Smantana', 'Fructe'],
          recommendation: '*Recomandat pentru evenimente',
@@ -94,7 +94,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort insiropat',
-      image: 'cake2.png',
+      image: 'tortInsiropat.jpg',
       info: {
          composition: [ 'Ou', 'Faina', 'Lapte', 'Morcov', 'Ghimbir', 'Nucsoara', 'Crema de' +
          ' branza', 'Unt' ],

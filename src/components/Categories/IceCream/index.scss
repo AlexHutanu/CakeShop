@@ -57,12 +57,19 @@
   &__flavours {
     display: flex;
     flex-direction: column;
+    height: 60%;
+    width: 30%;
+    flex-wrap: wrap;
 
     & ul {
+      width: fit-content;
+      margin: 0 0 1rem 0;
+      padding: 0;
 
       & li {
         display: flex;
         align-items: center;
+        width: fit-content;
         font-size: 1.7rem;
         color: $white;
         list-style: none;
@@ -147,13 +154,20 @@
     &__flavours {
       display: flex;
       flex-direction: row;
-      width: 100%;
-      align-items: center;
+      gap: 1rem;
+      width: 80%;
+      align-items: flex-start;
+      justify-content: flex-start;
       flex-wrap: wrap;
 
       & ul {
-        height: 1rem;
-        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 3rem;
+        gap: 1rem;
+        width: fit-content;
+        margin: 0;
+        padding: 0;
 
         & li {
           font-size: 1.2rem;

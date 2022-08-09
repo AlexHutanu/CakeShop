@@ -136,6 +136,7 @@
           align-items: center;
           justify-content: center;
           font-size: 1.7rem;
+          z-index: 1;
         }
 
         &__button {
@@ -341,7 +342,7 @@
             height: 2rem;
             font-size: 1.4rem;
             margin: 0;
-            z-index: 5;
+            z-index: 1;
           }
 
           &__button {

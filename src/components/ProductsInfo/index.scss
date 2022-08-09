@@ -40,7 +40,7 @@
         align-items: flex-start;
         height: 100%;
         width: 100%;
-        gap: 0;
+        gap: 1rem;
         flex-wrap: wrap;
       }
 
@@ -59,8 +59,27 @@
   }
 
   & svg {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.cake-description {
+
+  &__cake-tops {
+
+    & ul {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+      padding-left: 1rem;
+
+      & li {
+        list-style: none;
+        font-size: 1.5rem;
+        color: $white;
+      }
+    }
   }
 }
 
@@ -81,12 +100,15 @@
 
         & div {
           display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          width: fit-content;
 
 
           & p {
             width: 100%;
             margin: 0;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
           }
 
           &__wrapper {
@@ -102,6 +124,28 @@
 
       &__recommendation {
         margin: 0;
+      }
+
+      & svg{
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+  }
+}
+
+@include respond($phone) {
+  .cake-description {
+
+    &__cake-tops {
+
+      & ul {
+
+        & li {
+          list-style: none;
+          font-size: 1.1rem;
+          color: $white;
+        }
       }
     }
   }

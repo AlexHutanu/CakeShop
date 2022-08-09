@@ -2,7 +2,7 @@ export const fastingBakeryArray = [
    {
       type: 'Chec cu banane',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './chec.jpg',
       info: {
          price: '38 ron/kg',
          composition: [ 'Banane', 'Zahar', 'Faina', 'Ulei', 'Nuca' ],
@@ -12,7 +12,7 @@ export const fastingBakeryArray = [
    {
       type: 'Cozonac',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './cozonac.jpg',
       info: {
          price: '55 ron/kg',
          composition: [ 'Faina', 'Lapte soia', 'Margarina', 'Zahar', 'Nuca', 'Rahat', 'Drojdie' ],
@@ -22,7 +22,7 @@ export const fastingBakeryArray = [
    {
       type: 'Invartita cu piper',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './invartita.jpg',
       info: {
          price: '45 ron/kg',
          composition: [ 'Faina', 'Lapte de soia', 'Margarina', 'Drojdie', 'Piper', 'Zahar' ],
@@ -32,7 +32,7 @@ export const fastingBakeryArray = [
    {
       type: 'Colacei cu nuca insiropati',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './colaceiInsiropati.jpg',
       info: {
          price: '55 ron/kg',
          composition: [ 'Faina', 'Lapte soia', 'Zahar', 'Margarina', 'Drojdie', 'Nuca', 'Portocala', 'Miere' ],

@@ -2,7 +2,7 @@ export const cookiesArray = [
    {
       type: 'Alba ca zapada',
       price: '48 ron/kg',
-      image: './alba ca zapada.jpg',
+      image: './albacazapada.jpg',
       info: {
          price: '48 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Zahar', 'Lamaie', 'Ciocolata alba' ],
@@ -23,7 +23,7 @@ export const cookiesArray = [
    {
       type: 'Snickers',
       price: '50',
-      image: './index.jpg',
+      image: './snickers.jpg',
       info: {
          price: 75,
          composition: [ 'Ou', 'Lapte', 'Faina', 'Zahar', 'Nuci', 'Unt', 'Ciocolata alba/Lapte' ],
@@ -33,7 +33,7 @@ export const cookiesArray = [
    {
       type: 'Bomboane tavalite',
       price: 50,
-      image: './bomboane tavalite.jpg',
+      image: './bomboanetavalite.jpg',
       info: {
          price: '53 ron/kg',
          composition: [ 'Blat copt', 'Nuca', 'Unt', 'Ciocolata', 'Visine din alcool', 'Rom' ],
@@ -104,7 +104,7 @@ export const cookiesArray = [
    {
       type: 'Choux a la creme',
       price: 50,
-      image: './index.jpg',
+      image: './choux a la creme.jpg',
       info: {
          price: '55 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Vanilie' ],
@@ -134,7 +134,7 @@ export const cookiesArray = [
    {
       type: 'Macarons',
       price: 50,
-      image: './index.jpg',
+      image: './macarons2.jpg',
       info: {
          price: '180 ron/kg',
          composition: [ 'Faina de migdale', 'Ou', 'Zahar', 'Ciocolata', 'Diverse arome' ],
@@ -174,7 +174,7 @@ export const cookiesArray = [
    {
       type: 'Cornulete',
       price: 50,
-      image: './index.jpg',
+      image: './cornulete.jpg',
       info: {
          price: '50 ron/kg',
          composition: [ 'Ou', 'Faina', 'Drojdie', 'Untura', 'Rahat/Gem cu nuca' ],
@@ -274,7 +274,7 @@ export const cookiesArray = [
    {
       type: 'Tiramisu',
       price: 50,
-      image: './prajitura.jpg',
+      image: './tiramisu.jpg',
       info: {
          price: '7 ron/buc',
          composition: ['Ou', 'Faina', 'Lapte', 'Zahar', 'Cafea', 'Mascarpone', 'Smantana', 'Amaretto','Cacao'],
@@ -294,7 +294,7 @@ export const cookiesArray = [
    {
       type: 'Prajitura Marry',
       price: 50,
-      image: './index.jpg',
+      image: './prajitura marry.jpg',
       info: {
          price: '6 ron/buc',
          composition: ['Ou', 'Faina', 'Zahar', 'Scortisoara', 'Mar', 'Smantana'],

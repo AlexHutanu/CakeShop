@@ -12,7 +12,7 @@ export const bakeryArray = [
    {
       type: 'Poale \'n brau',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './placinte.jpg',
       info: {
          price: '55 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Drojdie', 'Branza', 'Zahar' ],
@@ -22,7 +22,7 @@ export const bakeryArray = [
    {
       type: 'Invartita cu piper',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './invartita.jpg',
       info: {
          price: '45 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Drojdie', 'Piper', 'Zahar' ],
@@ -30,9 +30,9 @@ export const bakeryArray = [
       }
    },
    {
-      type: 'Colacei cu nuca insiropati',
+      type: 'Colacei insiropati',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './colaceiInsiropati.jpg',
       info: {
          price: '55 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Zahar', 'Unt', 'Drojdie', 'Nuca', 'Portocala', 'Miere' ],
@@ -52,7 +52,7 @@ export const bakeryArray = [
    {
       type: 'Pasca cu ciocolata',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './pascacuciocolata.jpg',
       info: {
          price: '60 ron/kg',
          composition: [ 'Ou', 'Faina', 'Lapte', 'Zahar', 'Unt', 'Cacao', 'Smantana', 'Branza', 'Rom', 'Cioclata' ],
