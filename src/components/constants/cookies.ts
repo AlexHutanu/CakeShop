@@ -5,7 +5,7 @@ export const cookiesArray = [
       image: './albacazapada.jpg',
       info: {
          price: '48 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Zahar', 'Lamaie', 'Ciocolata alba' ],
+         composition: [ 'Blat de biscuite copt cu crema de lamaie ' ],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -15,8 +15,7 @@ export const cookiesArray = [
       image: './delicia.jpg',
       info: {
          price: '48 ron/kg',
-         composition: [ 'Ou', 'Lapte', 'Zahar', 'Unt', 'Faina', 'Vanilie', 'Cacao', 'Cocos', 'Ciocolata' +
-         ' alba' ],
+         composition: ['Blat pufos de vanilie si cacao cu crema de vanilie' ],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -25,8 +24,8 @@ export const cookiesArray = [
       price: '50',
       image: './snickers.jpg',
       info: {
-         price: 75,
-         composition: [ 'Ou', 'Lapte', 'Faina', 'Zahar', 'Nuci', 'Unt', 'Ciocolata alba/Lapte' ],
+         price: '75 ron/kg',
+         composition: [ 'Bezea cu nuca', 'Ciocolata alba', 'Caramel cu nuca' ],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -36,7 +35,7 @@ export const cookiesArray = [
       image: './bomboanetavalite.jpg',
       info: {
          price: '53 ron/kg',
-         composition: [ 'Blat copt', 'Nuca', 'Unt', 'Ciocolata', 'Visine din alcool', 'Rom' ],
+         composition: [ 'Blat copt cu nuca si ciocolata si visine in alcool'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -46,7 +45,7 @@ export const cookiesArray = [
       image: './raffaello.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Lapte praf', 'Unt', 'Nuca de cocos', 'Razatura de cocos', 'Migdale coapte' ],
+         composition: [ 'Cocos si migdala' ],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -56,17 +55,17 @@ export const cookiesArray = [
       image: './paleuri.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Ou', 'Unt', 'Faina', 'Zahar', 'Ciocolata', 'Smantana' ],
+         composition: ['Biscuiti vanilati cu crema de ciocolata si rom'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
    {
       type: 'Rulada Dobos',
       price: 50,
-      image: './dobos.jpg',
+      image: './ruladadobos.jpg',
       info: {
          price: '75 ron/kg',
-         composition: [ 'Ou', 'Lapte', 'Faina', 'Unt', 'Ciocolata' ],
+         composition: ['Blat pufos cu crema de ciocolata'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -76,18 +75,17 @@ export const cookiesArray = [
       image: './minitarte.jpg',
       info: {
          price: '68 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Vanilie/Caramel', 'Ciocolata', 'Fructe' ],
+         composition: ['Crema de vanilie / caramel','Fructe'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
    {
       type: 'Prajitura cu menta',
       price: 50,
-      image: './index.jpg',
+      image: './menta.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Ou', 'Lapte', 'Faina', 'Cacao', 'Mascarpone', 'Smantana', 'Ciocolata cu' +
-         ' menta' ],
+         composition: ['Blat de ciocolata', 'Crema de mascarpone si ciocolata cu menta',],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -97,7 +95,8 @@ export const cookiesArray = [
       image: './ciocolataDeCasa.jpg',
       info: {
          price: '75 ron/kg',
-         composition: [ 'Lapte praf', 'Unt', 'Cacao/Fistic/Trandafir' ],
+         composition: ['Cacao cu nuca prajita / Fistic / Trandafir / Ciocolata alba cu fructe' +
+         ' confiate'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -107,7 +106,7 @@ export const cookiesArray = [
       image: './choux a la creme.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Vanilie' ],
+         composition: ['Coji din aluat oparit umplute cu crema de vanilie si frisca'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -117,7 +116,7 @@ export const cookiesArray = [
       image: './chouxCraquelin.jpg',
       info: {
          price: '60 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Vanilie' ],
+         composition: ['Coji din aluat oparit umplute cu crema de vanilie si frisca'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -127,7 +126,7 @@ export const cookiesArray = [
       image: './minieclere.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Vanilie' ],
+         composition: ['Coji din aluat oparit umplute cu crema de vanilie'] ,
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -137,17 +136,17 @@ export const cookiesArray = [
       image: './macarons2.jpg',
       info: {
          price: '180 ron/kg',
-         composition: [ 'Faina de migdale', 'Ou', 'Zahar', 'Ciocolata', 'Diverse arome' ],
+         composition: ['Fursecuri cu faina de migdale si ganache cu diferite arome'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
    {
       type: 'Saratele',
       price: 50,
-      image: './index.jpg',
+      image: './saratele.jpg',
       info: {
          price: '65 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Unt', 'Telemea', 'Chimen/Mac' ],
+         composition: ['Unt si telemea de oaie'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -157,17 +156,17 @@ export const cookiesArray = [
       image: './miniamandine.jpg',
       info: {
          price: '48 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Ciocolata', 'Rom' ],
+         composition: ['Blat insiropat cu crema de ciocolata'],
          recommendation: ''
       }
    },
    {
       type: 'Prajitura Televizor',
       price: 50,
-      image: './index.jpg',
+      image: './televizor.jpg',
       info: {
          price: '58 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Lamaie', 'Visine', 'Cacao' ],
+         composition: ['Biscuite de cacao cu pandispan de lamaie', 'Crema de lamaie'],
          recommendation: '*Recomandata pentru eveniment'
       }
    },
@@ -177,47 +176,47 @@ export const cookiesArray = [
       image: './cornulete.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Drojdie', 'Untura', 'Rahat/Gem cu nuca' ],
+         composition: ['Umplutura cu rahat / gem si nuca'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
    {
       type: 'Prajitura Tosca',
       price: 50,
-      image: './index.jpg',
+      image: './tosca.jpg',
       info: {
          price: '63 ron/kg',
-         composition: [],
+         composition: ['Blat cu mac', 'Crema de vanilie'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
    {
       type: 'Tarta cu visine/rubarba',
       price: 50,
-      image: './index.jpg',
+      image: './tartarubarba.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Iaurt', 'Visine/Rubarba', 'Bezea' ],
+         composition: ['Blat fraged cu unt / visine sau rubarba / bezea'],
          recommendation: ''
       }
    },
    {
       type: 'Nuci',
       price: 50,
-      image: './index.jpg',
+      image: './nuci.png',
       info: {
          price: '75 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Zahar', 'Unt', 'Lapte', 'Nuca', 'Ciocolata', 'Rom' ],
+         composition: ['Biscuite cu unt', 'Crema de ciocolata cu rom si nuca'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
    {
       type: 'Lebede',
       price: 50,
-      image: './index.jpg',
+      image: './lebede.png',
       info: {
          price: '5 ron/buc',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Vanilie', 'Frisca' ],
+         composition: ['Coji din aluat oparit umplute cu crema de vanilie si frisca'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -227,7 +226,7 @@ export const cookiesArray = [
       image: './amandine.jpg',
       info: {
          price: '6,3 ron/buc',
-         composition: ['Ou', 'Zahar', 'Faina', 'Unt', 'Ciocolata', 'Rom', 'Fondant'],
+         composition: ['Blat insiropat cu crema de ciocolata'],
          recommendation: ''
       }
    },
@@ -237,7 +236,7 @@ export const cookiesArray = [
       image: './savarina.jpg',
       info: {
          price: '6,2 ron/buc',
-         composition: ['Ou', 'Lapte', 'Faina', 'Drojdie', 'Smantana', 'Jeleu de fucte', 'Rom'],
+         composition: ['Blat dospit / bine insiropat cu rom / frisca si jeleu de fructe'],
          recommendation: ''
       }
    },
@@ -247,7 +246,7 @@ export const cookiesArray = [
       image: './ecler.jpg',
       info: {
          price: '5,5 ron/buc',
-         composition: ['Ou', 'Lapte', 'Faina', 'Unt', 'Vanilie/Ciocolata'],
+         composition: ['Coji din aluat oparit umplute cu crema de vanilie'],
          recommendation: ''
       }
    },
@@ -257,17 +256,18 @@ export const cookiesArray = [
       image: './cheesecakePhoto.jpg',
       info: {
          price: '10 ron/buc',
-         composition: ['Crema de branza', 'Ciocolata alba', 'Unt de cacao', 'Gelatina/Pectina', 'Piure de fructe'],
+         composition: ['Crema de branza', 'Ciocolata alba', 'Piure de fructe'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
    {
       type: 'Cuburi Bailey',
       price: 50,
-      image: './cuburiBailey.jpg',
+      image: './cuburi B 2.jpg',
       info: {
          price: '90 ron/kg',
-         composition: ['Ou', 'Smantana', 'Ciocolata', 'Crema de whisky'],
+         composition: ['Mouse de ciocolata belgiana cu insertie de biscuite de ciocolata si crema' +
+         ' de whisky'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
@@ -277,7 +277,7 @@ export const cookiesArray = [
       image: './tiramisu.jpg',
       info: {
          price: '7 ron/buc',
-         composition: ['Ou', 'Faina', 'Lapte', 'Zahar', 'Cafea', 'Mascarpone', 'Smantana', 'Amaretto','Cacao'],
+         composition: ['Blat insiropat', 'Piscoturi de sampanie', 'Crema de mascarpone', 'Ness', 'Amaretto'],
          recommendation: ''
       }
    },
@@ -287,17 +287,17 @@ export const cookiesArray = [
       image: './fantezie.jpg',
       info: {
          price: '12 ron/buc',
-         composition: ['Ou', 'Lapte', 'Unt', 'Faina de migdale', 'Cacao', 'Vanilie', 'Fructe'],
+         composition: ['Biscuite cu migdale', 'Crema de vanilie'],
          recommendation: ''
       }
    },
    {
       type: 'Prajitura Marry',
       price: 50,
-      image: './prajitura marry.jpg',
+      image: './prajitura  marry.jpg',
       info: {
          price: '6 ron/buc',
-         composition: ['Ou', 'Faina', 'Zahar', 'Scortisoara', 'Mar', 'Smantana'],
+         composition: ['Blat pufos insiropat', 'Mar copt', 'Scortisoara', 'Frisca'],
          recommendation: ''
       }
    },
@@ -307,17 +307,17 @@ export const cookiesArray = [
       image: './bombite.jpg',
       info: {
          price: '5 ron/buc',
-         composition: ['Blat copt', 'Biscuite', 'Stafide inmuiate in rom', 'Nuca coapta', 'Ciocolata', 'Unt'],
+         composition: ['Blat copt', 'Nuca prajita', 'Stafide inmuiate in rom', 'Ciocolata'],
          recommendation: '*Recomandat pentru evenimente'
       }
    },
    {
       type: 'Sarlota',
       price: 50,
-      image: './index.jpg',
+      image: './sarlota.jpg',
       info: {
          price: '6 ron/buc',
-         composition: ['Lapte', 'Cacao', 'Gelatina', 'Rom', 'Smantana'],
+         composition: ['Crema de lapte cu cacao'],
          recommendation: ''
       }
    },
@@ -327,17 +327,17 @@ export const cookiesArray = [
       image: './prajitura.jpg',
       info: {
          price: '12 ron/buc',
-         composition: ['Lapte', 'Ou', 'Faina', 'Cacao', 'Zahar', 'Cicolata', 'Vanilie', 'Alune'],
+         composition: ['Blat umed de cacao', 'Crema de vanilie si ciocolata'],
          recommendation: ''
       }
    },
    {
       type: 'Turta dulce decorata',
       price: 50,
-      image: './index.jpg',
+      image: './turtadulcedecorata.jpg',
       info: {
          price: '6/8/10 ron/buc',
-         composition: ['Ou', 'Unt', 'Lapte', 'Faina', 'Scortisoara', 'Nucsoara', 'Cuisoare', 'Royal icing'],
+         composition: ['Biscuite cu miere aromat cu scortisoara / nucsoara/ ghimbir'],
          recommendation: '*Recomandat pentru evenimente'
       }
    }

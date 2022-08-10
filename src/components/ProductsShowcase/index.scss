@@ -75,11 +75,17 @@
 @include respond($tablet-landscape) {
   .products-showcase {
     width: 100%;
+    padding-top: 0;
 
     &__ice-cream {
       width: 100%;
       margin: 0;
+      padding-top: 6rem;
       height: fit-content;
+    }
+
+    &__candy-bar {
+      padding-top: 6rem;
     }
   }
 }

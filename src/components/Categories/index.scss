@@ -22,8 +22,8 @@
       display: flex;
       align-items: center;
       border-radius: 1rem;
-      background: rgb(255,151,118);
-      background: linear-gradient(90deg, rgba(255,151,118,0.9051995798319328) 32%, rgba(70,224,255,0.835171568627451) 100%);
+      background: rgb(255,131,91);
+      background: linear-gradient(90deg, rgba(255,131,91,1) 48%, rgba(91,215,255,1) 150%);
 
       &__image {
 
@@ -124,7 +124,8 @@
           align-items: center;
           justify-content: center;
           font-size: 1.7rem;
-          margin: 0 0 1rem 0;
+          font-family: $primary-font;
+          margin: 0 1rem 1rem 0;
           width: 10rem;
           cursor: pointer;
           z-index: 2;
@@ -133,6 +134,7 @@
         &__price {
           color: white;
           display: flex;
+          font-family: $primary-font;
           align-items: center;
           justify-content: center;
           font-size: 1.7rem;
@@ -147,6 +149,7 @@
           font-size: 1.3rem;
           background-color: $orange;
           cursor: pointer;
+          font-family: $primary-font;
           transition: .5s all;
 
           &:hover {

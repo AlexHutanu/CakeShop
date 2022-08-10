@@ -1,7 +1,6 @@
 import NavBar from '../../components/NavBar'
 import FacebookIcon from '../../icons/FacebookIcon'
 import InstagramIcon from '../../icons/InstagramIcon'
-import MailIcon from '../../icons/MailIcon'
 import PhoneIcon from '../../icons/PhoneIcon'
 import PinIcon from '../../icons/PinIcon'
 import RightArrowIcon from '../../icons/RightArrowIcon'
@@ -59,7 +58,7 @@ export default () => {
                               className="about-us__information__sections__section__container__details__contact-list__element">
                               <PhoneIcon/>
                               <p className="about-us__information__sections__section__container__details__contact-list__element__name">
-                                 <a href='tel:+0758481842'>0728 165 676</a>
+                                 <a href='tel:0728 165 676'>0728 165 676</a>
                               </p>
                            </div>
                            <div

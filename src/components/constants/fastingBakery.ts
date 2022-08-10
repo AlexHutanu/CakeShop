@@ -5,7 +5,7 @@ export const fastingBakeryArray = [
       image: './chec.jpg',
       info: {
          price: '38 ron/kg',
-         composition: [ 'Banane', 'Zahar', 'Faina', 'Ulei', 'Nuca' ],
+         composition: ['Blat umed de banane', 'Nuci prajite'],
          recommendation: ''
       }
    },
@@ -15,7 +15,7 @@ export const fastingBakeryArray = [
       image: './cozonac.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Faina', 'Lapte soia', 'Margarina', 'Zahar', 'Nuca', 'Rahat', 'Drojdie' ],
+         composition: [ 'Umplutura de nuca / rahat' ],
          recommendation: ''
       }
    },
@@ -25,17 +25,17 @@ export const fastingBakeryArray = [
       image: './invartita.jpg',
       info: {
          price: '45 ron/kg',
-         composition: [ 'Faina', 'Lapte de soia', 'Margarina', 'Drojdie', 'Piper', 'Zahar' ],
+         composition: [ 'Aluat de cozonac si piper aromat' ],
          recommendation: ''
       }
    },
    {
-      type: 'Colacei cu nuca insiropati',
+      type: 'Colacei insiropati',
       price: '602 ron/kg',
       image: './colaceiInsiropati.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Faina', 'Lapte soia', 'Zahar', 'Margarina', 'Drojdie', 'Nuca', 'Portocala', 'Miere' ],
+         composition: [ 'Aluat de cozonac cu umplutura de nuca' ],
          recommendation: ''
       }
    },

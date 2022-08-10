@@ -5,7 +5,7 @@ export const fastingCookiesArray = [
       image: './morcoveata.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Morcov', 'Zahar', 'Lamaie', 'Faina', 'Nuca de cocos' ],
+         composition: ['Blat umed cu morcov si cocos'],
          recommendation: ''
       }
    },
@@ -15,7 +15,7 @@ export const fastingCookiesArray = [
       image: './prajitura  cu mar POST.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Faina', 'Mar', 'Scortisoara', 'Suc de rosii', 'Zahar' ],
+         composition: [ 'Foi cu suc de rosii', 'Umplutura de mere calite' ],
          recommendation: ''
       }
    },
@@ -25,7 +25,7 @@ export const fastingCookiesArray = [
       image: './prajitura cu gris POST.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Faina', 'Zahar', 'Uler', 'Suc de rosii', 'Gris', 'Lapte soia', 'Lamaie', 'Nuca', 'Gem' ],
+         composition: [ 'Foi cu suc de rosii', 'Crema de gris', 'Crema de gem cu nuca' ],
          recommendation: ''
       }
    },
@@ -35,7 +35,7 @@ export const fastingCookiesArray = [
       image: './bogdy.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Faina', 'Zahar', 'Cacao', 'Gem', 'Unt de arahide' ],
+         composition: ['Blat umed de cacao', 'Glazura de unt de arahide'],
          recommendation: ''
       }
    },
@@ -45,8 +45,17 @@ export const fastingCookiesArray = [
       image: './bomboanetavalite.jpg',
       info: {
          price: '50 ron/kg',
-         composition: [ 'Blat copt', 'Biscuite', 'Cacao', 'Margarina', 'Ciocolata', 'Rom', 'Visina' +
-         ' din alcool' ],
+         composition: ['Blat copt', 'Biscuite','Ciocolata', 'Visine din alcool'],
+         recommendation: ''
+      }
+   },
+   {
+      type: 'Prajitura cu dovleac',
+      price: '602 ron/kg',
+      image: './dovleac.jpg',
+      info: {
+         price: '50 ron/kg',
+         composition: ['Foi fragede umplute cu dovleac copt'],
          recommendation: ''
       }
    }

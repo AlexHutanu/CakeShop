@@ -12,7 +12,7 @@ export default () => {
             <p>Toate te duc cu gândul <mark className='orange'>Acasă!</mark></p>
          </div>
          <div className="landing-page__left-section__cake-images">
-            <img src="./cake1.webp" alt="Cake"/>
+            <img src="./cake1.jpg" alt="Cake"/>
             <img src="./cake2.jpg" alt="Cake"/>
             <img src="./cake3.jpg" alt="Cake"/>
          </div>

@@ -16,24 +16,31 @@
     width: 100vw;
 
     &__shop-name {
+      position: absolute;
+      top: -10%;
       display: flex;
       justify-content: center;
-      align-items: flex-start;
-      flex-direction: column;
-      min-width: 75%;
+      align-items: center;
       height: 100%;
-      margin: 0 0 0 1rem;
-      font-size: 1.7rem;
+      width: 100%;
+      font-size: 2rem;
+      margin-left: 1rem;
       cursor: pointer;
       font-family: Merienda, serif;
       font-style: italic;
       color: $orange;
 
-      & p {
-        margin: 0 0 0 3rem;
-        font-size: 1.1rem;
+      &-p {
+        width: 100%;
       }
+
+      &__author {
+        position: absolute;
+        left: 10%;
+        top: 40%;
+        font-size: 1.5rem;
       }
+    }
 
     &__dropdown {
       width: 70%;

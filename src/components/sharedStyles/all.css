@@ -71,7 +71,7 @@
   gap: 5rem;
 }
 .about-us__information__sections__section {
-  box-shadow: 0 0.5rem 0.5rem rgba(4, 3, 3, 0.1019607843);
+  box-shadow: rgba(255, 255, 255, 0.2) 0 8px 24px;
   display: flex;
   border-radius: 1rem;
   background-color: #f3f5f7;
@@ -85,32 +85,37 @@
   display: flex;
   align-items: flex-start;
   margin-top: 0.2rem;
+  padding-top: 0.5rem;
 }
 .about-us__information__sections__section__arrow svg {
   width: 3rem;
+  color: #ff835b;
   height: 3rem;
 }
 .about-us__information__sections__section__container {
   display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
 .about-us__information__sections__section__container__title {
   display: flex;
-  margin: 0.5rem;
   font-size: 2rem;
-  color: #181818;
+  margin: 0;
+  color: #ff835b;
+  font-family: sans-serif, Montserrat;
 }
 .about-us__information__sections__section__container__details {
   height: 100%;
 }
 .about-us__information__sections__section__container__details p {
+  font-family: sans-serif, Montserrat;
   color: #181818;
 }
 .about-us__information__sections__section__container__details__contact-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
   height: 100%;
 }
 .about-us__information__sections__section__container__details__contact-list__element {
@@ -120,10 +125,12 @@
 .about-us__information__sections__section__container__details__contact-list__element__name {
   font-size: 1.5rem;
   margin: 0;
+  font-family: sans-serif, Montserrat;
 }
 .about-us__information__sections__section__container__details__contact-list__element__name a {
   text-decoration: none;
   color: #181818;
+  font-family: sans-serif, Montserrat;
 }
 .about-us__information__sections__section__container__details__contact-list__element svg {
   width: 1.5rem;
@@ -183,7 +190,7 @@
     display: flex;
     align-items: center;
     height: 3.5rem;
-    margin: 0;
+    margin: 0.5rem;
     font-size: 1.8rem;
   }
   .about-us__information__sections__section__container__details__contact-list {
@@ -198,6 +205,7 @@
   .about-us__information__sections__section__container__details__contact-list__element__name {
     font-size: 1.5rem;
     margin: 0;
+    font-family: sans-serif, Montserrat;
   }
   .about-us__information__sections__section__container__details__contact-list__element svg {
     width: 2rem;
@@ -249,7 +257,7 @@
     display: flex;
     align-items: center;
     height: 3.5rem;
-    margin: 0;
+    margin: 0.5rem;
     font-size: 1.8rem;
   }
   .about-us__information__sections__section__container__details__contact-list {
@@ -264,6 +272,7 @@
   .about-us__information__sections__section__container__details__contact-list__element__name {
     font-size: 1.5rem;
     margin: 0;
+    font-family: sans-serif, Montserrat;
   }
   .about-us__information__sections__section__container__details__contact-list__element svg {
     width: 2rem;
@@ -301,18 +310,26 @@
   width: 25%;
   height: 100%;
   margin: 0 3rem 1rem 5rem;
+  background-size: cover;
+  object-fit: cover;
+}
+.ice-cream__image-slides img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
 }
 .ice-cream__info {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 30%;
+  width: 50%;
 }
 .ice-cream__info__title {
   display: flex;
   justify-content: flex-start;
   font-style: italic;
-  font-size: 2.5rem;
+  font-size: 2rem;
   border-bottom: 1px;
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -330,17 +347,13 @@
   margin: 0;
   color: #f3f5f7;
 }
-.ice-cream img {
-  width: 25rem;
-  height: 30rem;
-  border-radius: 4rem;
-}
 .ice-cream__flavours {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 60%;
-  width: 30%;
+  gap: 1rem;
   flex-wrap: wrap;
+  width: fit-content;
 }
 .ice-cream__flavours ul {
   width: fit-content;
@@ -441,6 +454,12 @@
     justify-content: center;
     height: 16rem;
     width: 100%;
+    background-size: cover;
+  }
+  .ice-cream__image-slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .ice-cream__info {
     width: 100%;
@@ -448,11 +467,16 @@
   .ice-cream__info__title {
     font-size: 1.2rem;
   }
+  .ice-cream__info__prices {
+    height: 100%;
+    padding-bottom: 1rem;
+  }
   .ice-cream__flavours {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     width: 80%;
+    height: 100%;
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -491,6 +515,11 @@
   gap: 3rem;
 }
 .candy-bar__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.candy-bar__description p {
   font-size: 2rem;
   width: 50rem;
   color: #f3f5f7;
@@ -508,6 +537,7 @@
 }
 .candy-bar__image img {
   border-radius: 2rem;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -520,7 +550,7 @@
     width: 20rem;
     margin: 0.5rem;
   }
-  .candy-bar__description {
+  .candy-bar__description p {
     font-size: 1.3rem;
     width: 100%;
     color: #f3f5f7;
@@ -545,7 +575,7 @@
     width: 20rem;
     margin: 0.5rem;
   }
-  .candy-bar__description {
+  .candy-bar__description p {
     font-size: 1.3rem;
     width: 100%;
     color: #f3f5f7;
@@ -683,8 +713,8 @@
   display: flex;
   align-items: center;
   border-radius: 1rem;
-  background: rgb(255, 151, 118);
-  background: linear-gradient(90deg, rgba(255, 151, 118, 0.9051995798) 32%, rgba(70, 224, 255, 0.8351715686) 100%);
+  background: rgb(255, 131, 91);
+  background: linear-gradient(90deg, rgb(255, 131, 91) 48%, rgb(91, 215, 255) 150%);
 }
 .category__container__primary-info__image__wrapper {
   width: 80%;
@@ -770,7 +800,8 @@
   align-items: center;
   justify-content: center;
   font-size: 1.7rem;
-  margin: 0 0 1rem 0;
+  font-family: sans-serif, Montserrat;
+  margin: 0 1rem 1rem 0;
   width: 10rem;
   cursor: pointer;
   z-index: 2;
@@ -778,6 +809,7 @@
 .category__container__primary-info__visible-info__price {
   color: white;
   display: flex;
+  font-family: sans-serif, Montserrat;
   align-items: center;
   justify-content: center;
   font-size: 1.7rem;
@@ -791,6 +823,7 @@
   font-size: 1.3rem;
   background-color: #ff835b;
   cursor: pointer;
+  font-family: sans-serif, Montserrat;
   transition: 0.5s all;
 }
 .category__container__primary-info__visible-info__button:hover {
@@ -1146,16 +1179,24 @@
   height: 2rem;
 }
 
-.cake-description__cake-tops ul {
+.cake-description__syrup-cake__header {
+  font-family: sans-serif, Montserrat;
+}
+.cake-description__syrup-cake__cake-tops ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   padding-left: 1rem;
+  font-family: sans-serif, Montserrat;
 }
-.cake-description__cake-tops ul li {
+.cake-description__syrup-cake__cake-tops ul li {
   list-style: none;
   font-size: 1.5rem;
   color: #f3f5f7;
+  font-family: sans-serif, Montserrat;
+}
+.cake-description__personalized-cake {
+  font-family: sans-serif, Montserrat;
 }
 
 @media (max-width: 75rem) {
@@ -1169,20 +1210,25 @@
     gap: 3rem;
     width: 100%;
   }
+  .product-info__details img {
+    width: 100%;
+    height: 50%;
+  }
   .product-info__details__composition {
     display: flex;
     flex-direction: column;
   }
   .product-info__details__composition div {
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-end;
     width: fit-content;
   }
   .product-info__details__composition div p {
     width: 100%;
     margin: 0;
     font-size: 1.5rem;
+    padding: 0;
   }
   .product-info__details__composition div__wrapper {
     height: 8rem;
@@ -1196,8 +1242,8 @@
     margin: 0;
   }
   .product-info__details svg {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
   }
 }
 @media (max-width: 75rem) {
@@ -1211,20 +1257,25 @@
     gap: 3rem;
     width: 100%;
   }
+  .product-info__details img {
+    width: 100%;
+    height: 50%;
+  }
   .product-info__details__composition {
     display: flex;
     flex-direction: column;
   }
   .product-info__details__composition div {
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-end;
     width: fit-content;
   }
   .product-info__details__composition div p {
     width: 100%;
     margin: 0;
     font-size: 1.5rem;
+    padding: 0;
   }
   .product-info__details__composition div__wrapper {
     height: 8rem;
@@ -1238,14 +1289,15 @@
     margin: 0;
   }
   .product-info__details svg {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
   }
 }
 @media (max-width: 37rem) {
-  .cake-description__cake-tops ul li {
+  .cake-description__syrup-cake__cake-tops ul li {
     list-style: none;
     font-size: 1.1rem;
+    font-family: sans-serif, Montserrat;
     color: #f3f5f7;
   }
 }
@@ -1253,7 +1305,6 @@
   width: 100%;
   height: 100%;
   border-radius: 2rem;
-  background-position: center;
   background-size: cover;
 }
 .image-slider__wrapper {
@@ -1342,7 +1393,7 @@
 }
 @media (max-width: 37rem) {
   .image-slider {
-    width: 8rem;
+    width: 100%;
     height: 16rem;
   }
 }
@@ -1367,6 +1418,7 @@
   font-size: 6rem;
   margin: 4rem 0 2rem 3rem;
   color: #f3f5f7;
+  font-family: sans-serif, Montserrat;
 }
 .landing-page__left-section__cake-images {
   display: flex;
@@ -1402,6 +1454,7 @@
   display: flex;
   align-items: center;
   color: #f3f5f7;
+  font-family: sans-serif, Montserrat;
 }
 .landing-page__right-section__features__feature svg {
   color: #ff835b;
@@ -1422,6 +1475,7 @@
   border: 1px solid transparent;
   border-radius: 1rem;
   background-color: #ff835b;
+  font-family: sans-serif, Montserrat;
   color: white;
   transition: 0.3s;
   animation: pulse 1500ms infinite;
@@ -1840,21 +1894,31 @@ mark.orange {
 @media (max-width: 75rem) {
   .products-showcase {
     width: 100%;
+    padding-top: 0;
   }
   .products-showcase__ice-cream {
     width: 100%;
     margin: 0;
+    padding-top: 6rem;
     height: fit-content;
+  }
+  .products-showcase__candy-bar {
+    padding-top: 6rem;
   }
 }
 @media (max-width: 75rem) {
   .products-showcase {
     width: 100%;
+    padding-top: 0;
   }
   .products-showcase__ice-cream {
     width: 100%;
     margin: 0;
+    padding-top: 6rem;
     height: fit-content;
+  }
+  .products-showcase__candy-bar {
+    padding-top: 6rem;
   }
 }
 @media (max-width: 20rem) {
@@ -1882,7 +1946,8 @@ mark.orange {
   gap: 2rem;
   width: 30rem;
   height: 15rem;
-  background-image: radial-gradient(circle farthest-corner at 3.1% 8.2%, rgb(248, 250, 107) 0%, rgb(238, 148, 148) 98.2%);
+  background: rgb(255, 131, 91);
+  background: linear-gradient(90deg, rgb(255, 131, 91) 48%, rgb(91, 215, 255) 150%);
   border-radius: 1rem;
   padding-left: 1rem;
 }
@@ -1909,6 +1974,7 @@ mark.orange {
   top: 100%;
   margin: 0;
   color: #f3f5f7;
+  font-family: sans-serif, Montserrat;
   font-size: 2rem;
 }
 .categories__element:hover {
@@ -2023,22 +2089,28 @@ mark.orange {
     width: 100vw;
   }
   .nav-bar__mobile__shop-name {
+    position: absolute;
+    top: -10%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    min-width: 75%;
+    align-items: center;
     height: 100%;
-    margin: 0 0 0 1rem;
-    font-size: 1.7rem;
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 1rem;
     cursor: pointer;
     font-family: Merienda, serif;
     font-style: italic;
     color: #ff835b;
   }
-  .nav-bar__mobile__shop-name p {
-    margin: 0 0 0 3rem;
-    font-size: 1.1rem;
+  .nav-bar__mobile__shop-name-p {
+    width: 100%;
+  }
+  .nav-bar__mobile__shop-name__author {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-size: 1.5rem;
   }
   .nav-bar__mobile__dropdown {
     width: 70%;
@@ -2096,22 +2168,28 @@ mark.orange {
     width: 100vw;
   }
   .nav-bar__mobile__shop-name {
+    position: absolute;
+    top: -10%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    min-width: 75%;
+    align-items: center;
     height: 100%;
-    margin: 0 0 0 1rem;
-    font-size: 1.7rem;
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 1rem;
     cursor: pointer;
     font-family: Merienda, serif;
     font-style: italic;
     color: #ff835b;
   }
-  .nav-bar__mobile__shop-name p {
-    margin: 0 0 0 3rem;
-    font-size: 1.1rem;
+  .nav-bar__mobile__shop-name-p {
+    width: 100%;
+  }
+  .nav-bar__mobile__shop-name__author {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-size: 1.5rem;
   }
   .nav-bar__mobile__dropdown {
     width: 70%;
@@ -2187,13 +2265,14 @@ mark.orange {
   align-items: center;
   height: 100%;
   font-size: 2.5rem;
+  top: -10%;
   margin-left: 1rem;
   cursor: pointer;
   font-family: Merienda, serif;
   font-style: italic;
   color: #ff835b;
 }
-.nav-bar__desktop__shop-name p {
+.nav-bar__desktop__shop-name__author {
   position: absolute;
   left: 20%;
   top: 40%;

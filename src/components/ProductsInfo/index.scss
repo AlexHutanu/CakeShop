@@ -66,20 +66,33 @@
 
 .cake-description {
 
-  &__cake-tops {
+  &__syrup-cake {
 
-    & ul {
-      display: flex;
-      flex-direction: column;
-      gap: .5rem;
-      padding-left: 1rem;
+    &__header {
+      font-family: $primary-font;
+    }
 
-      & li {
-        list-style: none;
-        font-size: 1.5rem;
-        color: $white;
+    &__cake-tops {
+
+      & ul {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding-left: 1rem;
+        font-family: $primary-font;
+
+        & li {
+          list-style: none;
+          font-size: 1.5rem;
+          color: $white;
+          font-family: $primary-font;
+        }
       }
     }
+  }
+
+  &__personalized-cake {
+    font-family: $primary-font;
   }
 }
 
@@ -94,14 +107,19 @@
       gap: 3rem;
       width: 100%;
 
+      & img {
+        width: 100%;
+        height: 50%;
+      }
+
       &__composition {
         display: flex;
         flex-direction: column;
 
         & div {
           display: flex;
+          align-items: center;
           justify-content: center;
-          align-items: flex-end;
           width: fit-content;
 
 
@@ -109,6 +127,7 @@
             width: 100%;
             margin: 0;
             font-size: 1.5rem;
+            padding: 0;
           }
 
           &__wrapper {
@@ -127,8 +146,8 @@
       }
 
       & svg{
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
       }
     }
   }
@@ -137,14 +156,18 @@
 @include respond($phone) {
   .cake-description {
 
-    &__cake-tops {
+    &__syrup-cake {
 
-      & ul {
+      &__cake-tops {
 
-        & li {
-          list-style: none;
-          font-size: 1.1rem;
-          color: $white;
+        & ul {
+
+          & li {
+            list-style: none;
+            font-size: 1.1rem;
+            font-family: $primary-font;
+            color: $white;
+          }
         }
       }
     }

@@ -7,12 +7,12 @@ export default () => {
 
    return (
       <div className="nav-bar__desktop">
-         <p className="nav-bar__desktop__shop-name" onClick={() =>
+         <div className="nav-bar__desktop__shop-name" onClick={() =>
             navigate('/')
          }>
-            Cofetaria Acasa
-            <p>by Claudia Branzaru</p>
-         </p>
+            <p className='nav-bar__desktop__shop-name-p'>Cofetaria Acasa</p>
+            <p className='nav-bar__desktop__shop-name__author'>by Claudia Branzaru</p>
+         </div>
          <ul className="nav-bar__desktop__menu">
             <li>
                <NavLink className={({ isActive }) => isActive ? 'nav-bar__desktop__menu__item' +

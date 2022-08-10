@@ -5,7 +5,7 @@ export const bakeryArray = [
       image: './cozonac.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Drojdie', 'Nuca', 'Rahat/Branza', 'Zahar' ],
+         composition: ['Nuca si rahat / Branza',],
          recommendation: ''
       }
    },
@@ -15,7 +15,7 @@ export const bakeryArray = [
       image: './placinte.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Drojdie', 'Branza', 'Zahar' ],
+         composition: [ 'Cas de vaca'],
          recommendation: ''
       }
    },
@@ -25,7 +25,7 @@ export const bakeryArray = [
       image: './invartita.jpg',
       info: {
          price: '45 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Drojdie', 'Piper', 'Zahar' ],
+         composition: ['Aluat de cozonac', 'Piper aromat'],
          recommendation: ''
       }
    },
@@ -35,17 +35,17 @@ export const bakeryArray = [
       image: './colaceiInsiropati.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Zahar', 'Unt', 'Drojdie', 'Nuca', 'Portocala', 'Miere' ],
+         composition: [ 'Aluat de cozonac implut cu nuca'],
          recommendation: ''
       }
    },
    {
       type: 'Pasca fara aluat',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './pascafaraaluat.jpg',
       info: {
          price: '60 ron/kg',
-         composition: [ 'Branza', 'Smantana', 'Unt', 'Stafide', 'Ciocolata alba', 'Zahar', 'Vanilie', 'Ou' ],
+         composition: [ 'Crema de branza de vaci cu smantana, unt si stafide'],
          recommendation: ''
       }
    },
@@ -55,7 +55,7 @@ export const bakeryArray = [
       image: './pascacuciocolata.jpg',
       info: {
          price: '60 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Zahar', 'Unt', 'Cacao', 'Smantana', 'Branza', 'Rom', 'Cioclata' ],
+         composition: ['Blat de cacao cu rom', 'Crema de branza si unt'],
          recommendation: ''
       }
    },
@@ -65,27 +65,27 @@ export const bakeryArray = [
       image: './index.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Aluat dospit', 'Branza', 'Ou', 'Zahar', 'Vanilie' ],
+         composition: [ 'Aluat de cozonac cu umplura de cas de vaca' ],
          recommendation: ''
       }
    },
    {
       type: 'Mucenici tranditionali',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './mucenici.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Drojdie', 'Nuca', 'Zahar', 'Miere' ],
+         composition: [ 'Aluat de cozonac insiropat si presarat cu nuca'],
          recommendation: ''
       }
    },
    {
       type: 'Mucenici impletiti',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './muceniciImpletiti.jpg',
       info: {
          price: '55 ron/kg',
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Unt', 'Drojdie', 'Nuca', 'Zahar', 'Miere', 'Portocala' ],
+         composition: ['Aluat de cozonac implut cu nuca'],
          recommendation: ''
       }
    },

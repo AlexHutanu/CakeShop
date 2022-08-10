@@ -11,10 +11,10 @@ export default () => {
 
    return <>
       <div className={`nav-bar__mobile ${open ? 'nav-bar__mobile__blur' : ''}`}>
-         <p className="nav-bar__mobile__shop-name" onClick={() => navigate('/')}>
-            Cofetaria Acasa
-            <p>by Claudia Branzaru</p>
-         </p>
+         <div className="nav-bar__mobile__shop-name" onClick={() => navigate('/')}>
+            <p className='nav-bar__mobile__shop-name-p'>Cofetaria Acasa</p>
+            <p className='nav-bar__mobile__shop-name__author'>by Claudia Branzaru</p>
+         </div>
          <div className="nav-bar__mobile__dropdown">
             <div className="nav-bar__mobile__dropdown__menu" onClick={() => setOpen(prev => !prev)}>
                <MenuIcon/>

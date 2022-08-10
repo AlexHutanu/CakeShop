@@ -48,6 +48,7 @@ export default () => {
                   return <Cookies key={id} type={type} image={image} price={`${price}`}
                                   info={<CookiesInfo composition={composition}
                                                      recommendation={recommendation}
+                                                     image={image}
                                   />}/>
                })
                : null}
@@ -57,6 +58,7 @@ export default () => {
                   return <Cookies key={id} type={type} image={image} price={`${price}`}
                                   info={<CookiesInfo composition={composition}
                                                      recommendation={recommendation}
+                                                     image={image}
                                   />}/>
                })
                : null}

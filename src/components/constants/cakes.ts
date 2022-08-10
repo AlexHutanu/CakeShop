@@ -1,7 +1,7 @@
 export const cakesArray = [
    {
       type: 'Tort Cifra',
-      image: './tortcifra.png',
+      image: './tortcifra.jpg',
       info: {
          composition: [ 'Blat de biscuite cu migdale', 'Crema vanilie' ],
          recommendation: '*Recomandat pentru evenimente',
@@ -12,7 +12,7 @@ export const cakesArray = [
       type: 'Tort Dobos',
       image: 'dobos.jpg',
       info: {
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Ciocolata', 'Unt' ],
+         composition: [ 'Blat piscot de sampanie', 'Crema de ciocolata'],
          recommendation: '*Decor limitat',
          price: '80 ron/kg'
       }
@@ -21,17 +21,17 @@ export const cakesArray = [
       type: 'Tort Egiptean',
       image: 'tortEgiptean.jpg',
       info: {
-         composition: ['Faina', 'Nuca', 'Krantz', 'Nuca caramelizata', 'Vanilie', 'Lapte', 'Unt', 'Smochine' ],
+         composition: ['Blat de bezea cu nuca', 'Crema de vanilie', 'Frisca cu nuca caramelizate' +
+         ' cu krantz'],
          recommendation: '*Decor limitat',
          price: '80 ron/kg'
       }
    },
    {
       type: 'Tort Trio Chocolate',
-      image: 'cake2.png',
+      image: 'torttrio.jpg',
       info: {
-         composition: [ 'Lapte', 'Ou', 'Faina', 'Cacao', 'Cafea', 'Gelatina', 'Ciocolata' +
-         ' alba/lapte/neagra' ],
+         composition: [ 'Blat umed de cacao', 'Mouse de ciocolata neagra / lapte / alba' ],
          recommendation: '*Decor limitat',
          price: '70 ron/kg'
       }
@@ -40,7 +40,7 @@ export const cakesArray = [
       type: 'Tort Limoncello',
       image: 'limoncello.jpg',
       info: {
-         composition: [ 'Ou', 'Faina migdale', 'Fistic', 'Miere de albine', 'Unt', 'Lime' ],
+         composition: [ 'Blat de fistic', 'Crema de fistic si lime' ],
          recommendation: '*Decor limitat',
          price: '80 ron/kg'
       }
@@ -49,7 +49,7 @@ export const cakesArray = [
       type: 'Tort Medovic',
       image: 'medovic.jpg',
       info: {
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Miere', 'Smantana', 'Visine', 'Portocale' ],
+         composition: ['Biscuite cu miere de albine ', 'Crema de smantana cu visine'],
          recommendation: '*Decor limitat',
          price: '80 ron/kg'
       }
@@ -58,18 +58,16 @@ export const cakesArray = [
       type: 'Tort Carrot',
       image: 'carrotcake.jpg',
       info: {
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Morcov', 'Ghimbir', 'Nucsoara', 'Crema de' +
-         ' branza', 'Unt' ],
+         composition: [ 'Blat de morcov cu crema de branza si unt' ],
          recommendation: '*Recomandat pentru evenimente',
          price: '80 ron/kg'
       }
    },
    {
       type: 'Tort Cheesecake',
-      image: 'cake2.png',
+      image: 'tortcheesecake.jpg',
       info: {
-         composition: [ 'Biscuite cu unt', 'Crema de branza', 'Ciocolata alba', 'Piure de' +
-         ' fructe', 'Gelatina' ],
+         composition: ['Biscuite linzer', 'Crema de branza cu ciocolata alba', 'Piure de fructe'],
          recommendation: '*Recomandat pentru evenimente',
          price: '90 ron/kg'
       }
@@ -78,16 +76,17 @@ export const cakesArray = [
       type: 'Tort Entremet',
       image: 'tortEntremet.jpg',
       info: {
-         composition: [ 'Biscuite cu migdale', 'Ciocolata', 'Crema de whisky', 'Ou', 'Mascarpone', 'Zahar' ],
+         composition: ['Mouse de ciocolata belgiana cu insertie de biscuite de ciocolata si crema' +
+         ' de whisky'],
          recommendation: '*Recomandat pentru evenimente',
          price: '90 ron/kg'
       }
    },
    {
       type: 'Tort/Rulada Pavlova',
-      image: 'pavlova.png',
+      image: 'pavlova.jpg',
       info: {
-         composition: ['Albus ou', 'Zahar', 'Amidon', 'Mascarpone', 'Crema de branza', 'Smantana', 'Fructe'],
+         composition: ['Blat de bezea cu crema de branza si mascarpone', 'Fructe'],
          recommendation: '*Recomandat pentru evenimente',
          price: '11 ron/kg'
       }
@@ -96,27 +95,25 @@ export const cakesArray = [
       type: 'Tort insiropat',
       image: 'tortInsiropat.jpg',
       info: {
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Morcov', 'Ghimbir', 'Nucsoara', 'Crema de' +
-         ' branza', 'Unt' ],
+         composition: ['Blat de vanilie / cacao', 'Crema mouse de diferite arome'],
          recommendation: '*Recomandat pentru evenimente',
          price: '80 ron/kg'
       }
    },
    {
       type: 'Tort decorat',
-      image: 'cake2.png',
+      image: 'tortDecorat.jpg',
       info: {
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Morcov', 'Ghimbir', 'Nucsoara', 'Crema de' +
-         ' branza', 'Unt' ],
+         composition: ['Blat insiropat decorat in pasta de zahar / crema de branza'],
          recommendation: '*Recomandat pentru evenimente',
          price: '80 ron/kg'
       }
    },
    {
       type: 'Tort Amandina',
-      image: 'cake2.png',
+      image: 'tortamandina.jpg',
       info: {
-         composition: ['Ou', 'Zahar', 'Faina', 'Unt', 'Ciocolata', 'Rom', 'Fondant'],
+         composition: ['Blat insiropat cu crema de ciocolata decorat cu fondant'],
          recommendation: '*Decor limitat',
          price: '70 ron/kg'
       }
@@ -125,7 +122,7 @@ export const cakesArray = [
       type: 'Tort Mozaic',
       image: 'mozaic.jpg',
       info: {
-         composition: [ 'Ou', 'Faina', 'Lapte', 'Cacao', 'Unt', 'Lamaie', 'Ciocolata' ],
+         composition: ['Chec cu cacao / vanilie', 'Crema de ciocolata / lamaie'],
          recommendation: '*Recomandat pentru evenimente',
          price: '60 ron/kg'
       }
