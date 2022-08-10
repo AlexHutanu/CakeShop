@@ -47,6 +47,7 @@ export default () => {
                   const { type, image, info: { composition, recommendation, price } } = bakery
                   return <Bakery key={id} type={type} image={image} price={`${price}`}
                                  info={<BakeryInfo composition={composition}
+                                                   image={image}
                                                    recommendation={recommendation}
                                  />}/>
                })
@@ -56,6 +57,7 @@ export default () => {
                   const { type, image, info: { composition, recommendation, price } } = cookie
                   return <Bakery key={id} type={type} image={image} price={`${price}`}
                                  info={<BakeryInfo composition={composition}
+                                                   image={image}
                                                    recommendation={recommendation}
                                  />}/>
                })

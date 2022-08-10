@@ -22,6 +22,7 @@ export default () =>
                image={image}
                price={`${price}`}
                info={<CakesInfo
+                  image={image}
                   composition={composition}
                   recommendation={recommendation}
                />
