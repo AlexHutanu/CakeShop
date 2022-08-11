@@ -86,10 +86,6 @@ export default () => {
      section.current && section.current.scrollIntoView({ behavior: 'smooth' })
    }
 
-   useEffect(() => {
-      window.scrollTo(0, 0)
-   }, [])
-
    return (
       <div className="catalog-page__wrapper">
          <NavBar/>
