@@ -247,6 +247,7 @@ mark.orange {
       width: 100%;
       height: 50%;
       padding: 0;
+      animation: slide_from_top 1s;
 
       &__description {
 
@@ -289,12 +290,12 @@ mark.orange {
       flex-direction: column;
       width: 100%;
       padding: 0;
+      animation: slide_from_right 1s;
 
       &__features {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        animation: slide_from_right 1s;
 
         &__feature {
           margin: 0;

@@ -88,7 +88,7 @@ export const cakesArray = [
       info: {
          composition: ['Blat de bezea cu crema de branza si mascarpone', 'Fructe'],
          recommendation: '*Recomandat pentru evenimente',
-         price: '11 ron/kg'
+         price: '112 ron/kg'
       }
    },
    {

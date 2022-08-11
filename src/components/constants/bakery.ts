@@ -62,7 +62,7 @@ export const bakeryArray = [
    {
       type: 'Pasca traditionala',
       price: '602 ron/kg',
-      image: './index.jpg',
+      image: './pascatraditionala.png',
       info: {
          price: '55 ron/kg',
          composition: [ 'Aluat de cozonac cu umplura de cas de vaca' ],
