@@ -84,7 +84,6 @@
 .about-us__information__sections__section__arrow {
   display: flex;
   align-items: flex-start;
-  margin-top: 0.2rem;
   padding-top: 0.5rem;
 }
 .about-us__information__sections__section__arrow svg {
@@ -183,14 +182,17 @@
     min-height: 10rem;
     width: 100%;
   }
+  .about-us__information__sections__section__arrow {
+    padding-top: 0.5rem;
+  }
   .about-us__information__sections__section__container {
     margin: 0;
+    padding: 0.5rem 0 0 0;
   }
   .about-us__information__sections__section__container__title {
     display: flex;
     align-items: center;
     height: 3.5rem;
-    margin: 0.5rem;
     font-size: 1.8rem;
   }
   .about-us__information__sections__section__container__details__contact-list {
@@ -250,14 +252,17 @@
     min-height: 10rem;
     width: 100%;
   }
+  .about-us__information__sections__section__arrow {
+    padding-top: 0.5rem;
+  }
   .about-us__information__sections__section__container {
     margin: 0;
+    padding: 0.5rem 0 0 0;
   }
   .about-us__information__sections__section__container__title {
     display: flex;
     align-items: center;
     height: 3.5rem;
-    margin: 0.5rem;
     font-size: 1.8rem;
   }
   .about-us__information__sections__section__container__details__contact-list {
@@ -2113,7 +2118,7 @@ mark.orange {
     font-size: 1.5rem;
   }
   .nav-bar__mobile__dropdown {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -2192,7 +2197,7 @@ mark.orange {
     font-size: 1.5rem;
   }
   .nav-bar__mobile__dropdown {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

@@ -33,8 +33,8 @@ export default () => {
                </NavLink>
                <NavLink
                   className={({ isActive }) => isActive ? 'nav-bar__mobile__dropdown__links__link' + ' nav-bar__mobile__dropdown__links__link--active' : 'nav-bar__mobile__dropdown__links__link'}
-                  to={'/about-us'}>
-                  Despre noi
+                  to={'/information'}>
+                  Informatii
                </NavLink>
             </div>
          </div>

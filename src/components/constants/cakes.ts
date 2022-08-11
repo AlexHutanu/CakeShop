@@ -65,7 +65,7 @@ export const cakesArray = [
    },
    {
       type: 'Tort Cheesecake',
-      image: 'tortcheesecake.jpg',
+      image: 'tortCheesecake.jpg',
       info: {
          composition: ['Biscuite linzer', 'Crema de branza cu ciocolata alba', 'Piure de fructe'],
          recommendation: '*Recomandat pentru evenimente',

@@ -4,7 +4,7 @@ import InstagramIcon from '../../icons/InstagramIcon'
 import PhoneIcon from '../../icons/PhoneIcon'
 import PinIcon from '../../icons/PinIcon'
 import RightArrowIcon from '../../icons/RightArrowIcon'
-import { contactInfo } from '../../components/constants/contactInfo';
+import { contactInfo } from '../../components/constants/contactInfo'
 
 
 export default () => {
@@ -26,10 +26,18 @@ export default () => {
                      <div
                         className="about-us__information__sections__section__container__details">
                         <p>
-                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex itaque magni
-                           minus, nam nulla quis quos rem sit? Aliquam, itaque? Lorem ipsum dolor
-                           sit amet, consectetur adipisicing elit. Ab accusantium, amet at dolorem
-                           doloremque incidunt iste nihil reprehenderit saepe totam?
+                           Comenzile pentru torturile de nunta se iau pentru anul in curs, începând din luna
+                           ianuarie!
+                        </p>
+                        <p>
+                           Rezervați-vă din timp data, pentru a va putea îndulci cu produsele noastre,
+                           evenimentele importante din viața dumneavoastra!
+                           Pentru torturile aniversare, personalizate comenzile se preiau cu cel puțin
+                           2 saptamani înaintea evenimentului!
+                        </p>
+                        <p>
+                           Toate torturile de la secțiunea "torturi însiropate" pot avea decor de
+                           pasta de zahar și se pot personaliza!
                         </p>
                      </div>
                   </div>
@@ -58,17 +66,19 @@ export default () => {
                               className="about-us__information__sections__section__container__details__contact-list__element">
                               <PhoneIcon/>
                               <p className="about-us__information__sections__section__container__details__contact-list__element__name">
-                                 <a href='tel:0728 165 676'>0728 165 676</a>
+                                 <a href="tel:0728 165 676">0728 165 676</a>
                               </p>
                            </div>
                            <div
                               className="about-us__information__sections__section__container__details__contact-list__social-media">
                               <div
-                                 className="about-us__information__sections__section__container__details__contact-list__social-media__element" onClick={() => window.open('https://www.facebook.com/Cofetaria-Acasa-Targu-Ocna-101771164709091')}>
-                                 <FacebookIcon />
+                                 className="about-us__information__sections__section__container__details__contact-list__social-media__element"
+                                 onClick={() => window.open('https://www.facebook.com/Cofetaria-Acasa-Targu-Ocna-101771164709091')}>
+                                 <FacebookIcon/>
                               </div>
                               <div
-                                 className="about-us__information__sections__section__container__details__contact-list__social-media__element" onClick={() => window.open('https://www.instagram.com/claudiabranzaru/')}>
+                                 className="about-us__information__sections__section__container__details__contact-list__social-media__element"
+                                 onClick={() => window.open('https://www.instagram.com/claudiabranzaru/')}>
                                  <InstagramIcon/>
                               </div>
                            </div>

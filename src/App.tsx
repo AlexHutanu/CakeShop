@@ -12,7 +12,7 @@ export default () => {
          <Routes>
             <Route element={<LandingPage />} path={'/'} />
             <Route element={<CatalogPage />} path={'/catalog'} />
-            <Route element={<AboutUsPage />} path={'/about-us'} />
+            <Route element={<AboutUsPage />} path={'/information'} />
          </Routes>
       </Router>
    )

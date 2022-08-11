@@ -31,8 +31,8 @@ export default () => {
             <li>
                <NavLink className={({ isActive }) => isActive ? 'nav-bar__desktop__menu__item' +
                   ' nav-bar__desktop__menu__item--active' : 'nav-bar__desktop__menu__item'
-               } to={'/about-us'}>
-                  Despre noi
+               } to={'/information'}>
+                  Informatii
                </NavLink>
             </li>
          </ul>
