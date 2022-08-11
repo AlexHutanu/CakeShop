@@ -38,6 +38,12 @@
       padding: 0;
       flex-wrap: wrap;
 
+      & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
       &__wrapper {
         display: flex;
         flex-direction: column;

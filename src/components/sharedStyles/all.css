@@ -1163,6 +1163,11 @@
   padding: 0;
   flex-wrap: wrap;
 }
+.product-info__details__composition div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .product-info__details__composition__wrapper {
   display: flex;
   flex-direction: column;
