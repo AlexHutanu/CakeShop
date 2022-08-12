@@ -40,7 +40,7 @@ export const iceCreamFlavoursArray = [
       color: 'white'
    },
    {
-      flavour: 'Wiki',
+      flavour: 'Kiwi',
       color: 'green'
    },
    {
