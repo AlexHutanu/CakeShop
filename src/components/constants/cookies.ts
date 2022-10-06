@@ -1,7 +1,7 @@
 export const cookiesArray = [
    {
       type: 'Islere',
-      price: '65 lei/kg',
+      price: 65,
       image: './islere.jfif',
       info: {
          price: '65 lei/kg',
@@ -10,7 +10,7 @@ export const cookiesArray = [
    },
    {
      type: 'Cremsnit',
-      price: '69 lei/kg',
+      price: 65,
       image: './cremsnit.jfif',
       info: {
         price: '69 lei/kg',
