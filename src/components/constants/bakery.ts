@@ -4,7 +4,7 @@ export const bakeryArray = [
       price: '602 ron/kg',
       image: './cozonac.jpg',
       info: {
-         price: '55 ron/kg',
+         price: '57 ron/kg',
          composition: ['Nuca si rahat / Branza',],
          recommendation: ''
       }
@@ -14,7 +14,7 @@ export const bakeryArray = [
       price: '602 ron/kg',
       image: './placinte.jpg',
       info: {
-         price: '55 ron/kg',
+         price: '57 ron/kg',
          composition: [ 'Cas de vaca'],
          recommendation: ''
       }
@@ -24,7 +24,7 @@ export const bakeryArray = [
       price: '602 ron/kg',
       image: './invartita.jpg',
       info: {
-         price: '45 ron/kg',
+         price: '48 ron/kg',
          composition: ['Aluat de cozonac', 'Piper aromat'],
          recommendation: ''
       }

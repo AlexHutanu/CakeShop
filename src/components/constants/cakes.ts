@@ -14,7 +14,7 @@ export const cakesArray = [
       info: {
          composition: [ 'Blat piscot de sampanie', 'Crema de ciocolata'],
          recommendation: '*Decor limitat',
-         price: '80 ron/kg'
+         price: '83 ron/kg'
       }
    },
    {
@@ -24,7 +24,7 @@ export const cakesArray = [
          composition: ['Blat de bezea cu nuca', 'Crema de vanilie', 'Frisca cu nuca caramelizate' +
          ' cu krantz'],
          recommendation: '*Decor limitat',
-         price: '80 ron/kg'
+         price: '83 ron/kg'
       }
    },
    {
@@ -42,16 +42,16 @@ export const cakesArray = [
       info: {
          composition: [ 'Blat de fistic', 'Crema de fistic si lime' ],
          recommendation: '*Decor limitat',
-         price: '80 ron/kg'
+         price: '83 ron/kg'
       }
    },
    {
-      type: 'Tort Medovic',
+      type: 'Tort Medovik',
       image: 'medovic.jpg',
       info: {
          composition: ['Biscuite cu miere de albine ', 'Crema de smantana cu visine'],
          recommendation: '*Decor limitat',
-         price: '80 ron/kg'
+         price: '83 ron/kg'
       }
    },
    {
@@ -60,7 +60,7 @@ export const cakesArray = [
       info: {
          composition: [ 'Blat de morcov cu crema de branza si unt' ],
          recommendation: '*Recomandat pentru evenimente',
-         price: '80 ron/kg'
+         price: '83 ron/kg'
       }
    },
    {
@@ -69,7 +69,7 @@ export const cakesArray = [
       info: {
          composition: ['Biscuite linzer', 'Crema de branza cu ciocolata alba', 'Piure de fructe'],
          recommendation: '*Recomandat pentru evenimente',
-         price: '90 ron/kg'
+         price: '92 ron/kg'
       }
    },
    {
@@ -88,7 +88,7 @@ export const cakesArray = [
       info: {
          composition: ['Blat de bezea cu crema de branza si mascarpone', 'Fructe'],
          recommendation: '*Recomandat pentru evenimente',
-         price: '112 ron/kg'
+         price: '115 ron/kg'
       }
    },
    {
@@ -124,7 +124,7 @@ export const cakesArray = [
       info: {
          composition: ['Chec cu cacao / vanilie', 'Crema de ciocolata / lamaie'],
          recommendation: '*Recomandat pentru evenimente',
-         price: '60 ron/kg'
+         price: '65 ron/kg'
       }
    },
 ]
