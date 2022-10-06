@@ -5,7 +5,8 @@ export const cookiesArray = [
       image: './islere.jfif',
       info: {
          price: '65 lei/kg',
-         composition: ['Biscuite cu nuca', 'Crema de ciocolata', 'Caramel cu nuca prajita']
+         composition: ['Biscuite cu nuca', 'Crema de ciocolata', 'Caramel cu nuca prajita'],
+         recommendation: ''
       }
    },
    {
@@ -14,12 +15,13 @@ export const cookiesArray = [
       image: './cremsnit.jfif',
       info: {
         price: '69 lei/kg',
-         composition: ['Foietaj pregatit de noi', 'Crema de vanilie']
+         composition: ['Foietaj pregatit de noi', 'Crema de vanilie'],
+         recommendation: ''
       }
    },
    {
       type: 'Alba ca zapada',
-      price: '48 ron/kg',
+      price: 48,
       image: './albacazapada.jpg',
       info: {
          price: '50 ron/kg',
