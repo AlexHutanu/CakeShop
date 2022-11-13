@@ -4,7 +4,7 @@ export const bakeryArray = [
       price: '602 ron/kg',
       image: './cozonac.jpg',
       info: {
-         price: '57 ron/kg',
+         price: '60 ron/kg',
          composition: ['Nuca si rahat / Branza',],
          recommendation: ''
       }
@@ -24,7 +24,7 @@ export const bakeryArray = [
       price: '602 ron/kg',
       image: './invartita.jpg',
       info: {
-         price: '48 ron/kg',
+         price: '50 ron/kg',
          composition: ['Aluat de cozonac', 'Piper aromat'],
          recommendation: ''
       }
@@ -44,7 +44,7 @@ export const bakeryArray = [
       price: '602 ron/kg',
       image: './pascafaraaluat.jpg',
       info: {
-         price: '60 ron/kg',
+         price: '65 ron/kg',
          composition: [ 'Crema de branza de vaci cu smantana, unt si stafide'],
          recommendation: ''
       }
@@ -54,7 +54,7 @@ export const bakeryArray = [
       price: '602 ron/kg',
       image: './pascacuciocolata.jpg',
       info: {
-         price: '60 ron/kg',
+         price: '65 ron/kg',
          composition: ['Blat de cacao cu rom', 'Crema de branza si unt'],
          recommendation: ''
       }
@@ -64,7 +64,7 @@ export const bakeryArray = [
       price: '602 ron/kg',
       image: './pascatraditionala.png',
       info: {
-         price: '55 ron/kg',
+         price: '65 ron/kg',
          composition: [ 'Aluat de cozonac cu umplura de cas de vaca' ],
          recommendation: ''
       }

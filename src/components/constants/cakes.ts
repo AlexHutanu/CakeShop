@@ -5,7 +5,7 @@ export const cakesArray = [
       info: {
          composition: [ 'Blat de biscuite cu migdale', 'Crema vanilie' ],
          recommendation: '*Recomandat pentru evenimente',
-         price: '90 ron/kg'
+         price: '92 ron/kg'
       }
    },
    {
@@ -14,7 +14,7 @@ export const cakesArray = [
       info: {
          composition: [ 'Blat piscot de sampanie', 'Crema de ciocolata'],
          recommendation: '*Decor limitat',
-         price: '83 ron/kg'
+         price: '85 ron/kg'
       }
    },
    {
@@ -24,7 +24,7 @@ export const cakesArray = [
          composition: ['Blat de bezea cu nuca', 'Crema de vanilie', 'Frisca cu nuca caramelizate' +
          ' cu krantz'],
          recommendation: '*Decor limitat',
-         price: '83 ron/kg'
+         price: '85 ron/kg'
       }
    },
    {
@@ -33,7 +33,7 @@ export const cakesArray = [
       info: {
          composition: [ 'Blat umed de cacao', 'Mouse de ciocolata neagra / lapte / alba' ],
          recommendation: '*Decor limitat',
-         price: '70 ron/kg'
+         price: '74 ron/kg'
       }
    },
    {
@@ -42,7 +42,7 @@ export const cakesArray = [
       info: {
          composition: [ 'Blat de fistic', 'Crema de fistic si lime' ],
          recommendation: '*Decor limitat',
-         price: '83 ron/kg'
+         price: '85 ron/kg'
       }
    },
    {
@@ -51,7 +51,7 @@ export const cakesArray = [
       info: {
          composition: ['Biscuite cu miere de albine ', 'Crema de smantana cu visine'],
          recommendation: '*Decor limitat',
-         price: '83 ron/kg'
+         price: '85 ron/kg'
       }
    },
    {
@@ -97,7 +97,7 @@ export const cakesArray = [
       info: {
          composition: ['Blat de vanilie / cacao', 'Crema mouse de diferite arome'],
          recommendation: '*Recomandat pentru evenimente',
-         price: '80 ron/kg'
+         price: '74 ron/kg'
       }
    },
    {
@@ -106,7 +106,7 @@ export const cakesArray = [
       info: {
          composition: ['Blat insiropat decorat in pasta de zahar / crema de branza'],
          recommendation: '*Recomandat pentru evenimente',
-         price: '80 ron/kg'
+         price: '85 ron/kg'
       }
    },
    {
@@ -115,7 +115,7 @@ export const cakesArray = [
       info: {
          composition: ['Blat insiropat cu crema de ciocolata decorat cu fondant'],
          recommendation: '*Decor limitat',
-         price: '70 ron/kg'
+         price: '74 ron/kg'
       }
    },
    {
@@ -124,7 +124,7 @@ export const cakesArray = [
       info: {
          composition: ['Chec cu cacao / vanilie', 'Crema de ciocolata / lamaie'],
          recommendation: '*Recomandat pentru evenimente',
-         price: '65 ron/kg'
+         price: '67 ron/kg'
       }
    },
 ]
