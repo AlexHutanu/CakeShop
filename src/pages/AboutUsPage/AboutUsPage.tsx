@@ -26,13 +26,16 @@ export default () => {
                      <div
                         className="about-us__information__sections__section__container__details">
                         <p>
-                           Comenzile pentru torturile de nunta se iau pentru anul in curs, începând din luna
+                           Comenzile pentru torturile de nunta se iau pentru anul in curs, începând
+                           din luna
                            ianuarie!
                         </p>
                         <p>
-                           Rezervați-vă din timp data, pentru a va putea îndulci cu produsele noastre,
+                           Rezervați-vă din timp data, pentru a va putea îndulci cu produsele
+                           noastre,
                            evenimentele importante din viața dumneavoastra!
-                           Pentru torturile aniversare, personalizate comenzile se preiau cu cel puțin
+                           Pentru torturile aniversare, personalizate comenzile se preiau cu cel
+                           puțin
                            2 saptamani înaintea evenimentului!
                         </p>
                         <p>
@@ -82,6 +85,28 @@ export default () => {
                                  <InstagramIcon/>
                               </div>
                            </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div
+                  className="about-us__information__sections__section">
+                  <div className="about-us__information__sections__section__arrow">
+                     <RightArrowIcon/>
+                  </div>
+                  <div className="about-us__information__sections__section__container">
+                     <p className="about-us__information__sections__section__container__title">
+                        Program Sarbatori
+                     </p>
+                     <div
+                        className="about-us__information__sections__section__container__details__contact-list">
+                        <div
+                           className="about-us__information__sections__section__container__details__contact-list__element__name">
+                           31 dec. - 8:30 - 12:30
+                           1 ian. - 11:00 - 17:00
+                           2 ian. - INCHIS <br />
+                           Din 3 ian. revenim la program normal! <br />
+                           Sarbatori fericite!
                         </div>
                      </div>
                   </div>
